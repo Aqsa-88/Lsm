@@ -1,0 +1,1725 @@
+.t1desktop-11-child {
+    height: 82px;
+    width: 341px;
+    position: relative;
+    background: linear-gradient(203.14deg, #adbbdf, rgba(182, 187, 202, 0));
+    display: none;
+    max-width: 100%;
+  }
+  .t1calendar-132 {
+    height: 44px;
+    width: 39px;
+    position: relative;
+    display: none;
+  }
+   /**VVVVVVVVVVVVVVVVVVVVV t1group-icon2 t1frame-child6 VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV*/
+  .t1frame-child6,
+  .t1group-icon2 {
+    position: relative;
+    max-width: 100%;
+  }
+  .t1frame-child6 {
+    width: 340px;
+    height: 1005px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    background-color: snow;
+    display: none;
+  }
+  .t1group-icon2 {
+    height: 105px;
+    flex: 1;
+    overflow: hidden;
+    object-fit: cover;
+    z-index: 1;
+  }
+     /**VVVVVVVVVVVVVVVVVVVV t1logout-icon3 t1group-container  VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV*/
+  .t1group-container {
+    width: 185px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 21px;
+    box-sizing: border-box;
+  }
+  .t1logout-icon3 {
+    height: 30px;
+    width: 28px;
+    position: relative;
+    z-index: 1;
+  }
+  /*>>>>>>>>>>>>>>> t1logout-chevron-icon t1logout-icon-container >>>>>>>>>>>>>>>>>>>>>>>>>>*/
+  .t1logout-icon-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 5px 0 8px;
+  }
+  .t1logout-chevron-icon {
+    width: 41px;
+    height: 29px;
+    position: relative;
+    z-index: 2;
+  }
+  /******** t1query-inner-join2  t1logout-action  ************/
+  .t1logout-action {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 32px;
+  }
+  .t1query-inner-join2 {
+    width: 41px;
+    height: 45px;
+    position: relative;
+    object-fit: cover;
+    z-index: 2;
+  }
+  /*BBBBBBBBBBBBBBBBBBBBBBBBBB t1courses2   t1catagory      t1dashboard2 t1user-actions  BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB*/
+  .t1user-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 40px;
+  }
+  .t1catagory,
+  .t1dashboard2 {
+    width: 178px;
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+  }
+  .t1catagory {
+    width: 142px;
+  }
+
+  .t1courses2 {
+    flex: 1;
+    position: relative;
+    z-index: 2;
+  }
+  /*KKKKKKKKKKKKK  t1courses-title-container  KKKKKKKKKKKKKKK*/
+  .t1courses-title-container {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 0 1px;
+  }
+  /*      t1catagory-parent         */
+  .t1catagory-parent {
+    align-self: stretch;
+    gap: 34px;
+  }
+  /*<<<<<<<<< t1dashboard-container-wrapper <<<<<<<<<*/
+  .t1catagory-parent,
+  .t1dashboard-container,
+  .t1dashboard-container-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .t1dashboard-container {
+    align-self: stretch;
+    gap: 46px;
+  }
+  .t1dashboard-container-wrapper {
+    flex: 1;
+    padding: 8px 0 0;
+  }
+    /**VVVVVVVVVVVVVVVVVVVVVVt1navigation-panel   t1user-actions-parent VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV*/
+  .t1navigation-panel,
+  .t1user-actions-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 29px;
+  }
+  .t1navigation-panel {
+    flex-direction: column;
+    padding: 0 27px 0 0;
+    gap: 35px;
+  }
+  .t1help-icon2 {
+    height: 45px;
+    width: 40px;
+    position: relative;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .t1help-frame {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 10px 0 3px;
+  }
+  .t1avatar-icon {
+    height: 38.4px;
+    width: 37.4px;
+    position: relative;
+    z-index: 1;
+  }
+  .t1avatar-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 10px 0 6px;
+  }
+  .t1logout-icon4 {
+    align-self: stretch;
+    height: 45px;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .t1content-header {
+    width: 53px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 22.3px;
+  }
+  .t1help2,
+  .t1log-out2,
+  .t1setting2 {
+    align-self: stretch;
+    position: relative;
+    z-index: 1;
+  }
+  .t1settings-logout-action,
+  .t1settings-logout-action-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .t1settings-logout-action {
+    flex: 1;
+    flex-direction: column;
+    gap: 36px;
+  }
+  .t1settings-logout-action-wrapper {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 0 0 4px;
+  }
+  .t1help-dropdown,
+  .t1help-dropdown-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .t1help-dropdown-content {
+    align-self: stretch;
+    gap: 43px;
+  }
+  .t1help-dropdown {
+    flex: 1;
+    padding: 10px 0 0;
+  }
+  .t1content-container {
+    flex: 1;
+    flex-direction: row;
+    gap: 17px;
+  }
+  /**VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV*/
+  .t1content-container,
+  .t1content-panel,
+  .t1rectangle-parent5 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .t1content-panel {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 0 0 5px;
+    color: #373739;
+  }
+  .t1rectangle-parent5 {
+    width: 300px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    background-color: snow;
+    flex-direction: column;
+    padding: 37px 12px 16px 48px;
+    box-sizing: border-box;
+    gap: 463px;
+    max-width: 100%;
+  }
+  .t1courses3 {
+    margin: 0;
+    width: 331px;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+    white-space: nowrap;
+    max-width: 100%;
+  }
+  .t1search-input-wrapper-child {
+    height: 42px;
+    width: 447px;
+    position: relative;
+    border-radius: 10px;
+    background-color: snow;
+    display: none;
+    max-width: 100%;
+  }
+  .t1search-icon2,
+  .t1search2 {
+    position: relative;
+    z-index: 1;
+  }
+  .t1search-icon2 {
+    height: 24px;
+    width: 22px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .t1search2 {
+    text-decoration: none;
+    align-self: stretch;
+    font-weight: 700;
+    color: inherit;
+  }
+  .t1search-frame,
+  .t1search-input-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .t1search-frame {
+    width: 68px;
+    flex-direction: column;
+    padding: 3px 0 0;
+  }
+  .t1search-input-wrapper {
+    flex: 1;
+    border-radius: 10px;
+    background-color: snow;
+    flex-direction: row;
+    padding: 11px 20px 7px;
+    max-width: 100%;
+  }
+  .t1create-course-button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    background-color: #2b59ce;
+    width: 108px;
+    height: 39px;
+  }
+  .t1creation-course {
+    text-decoration: none;
+    position: absolute;
+    top: 13px;
+    left: 8px;
+    font-weight: 700;
+    color: inherit;
+    display: inline-block;
+    width: 181px;
+    height: 17px;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .t1course-creation-button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .t1dropdown-icon,
+  .t1plus-icon {
+    height: 24px;
+    width: 19px;
+    position: relative;
+  }
+  .t1dropdown-icon {
+    width: 24px;
+    height: 17px;
+  }
+  .t1creation-icons,
+  .t1dropdown-icon-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .t1dropdown-icon-container {
+    flex-direction: column;
+    padding: 3px 0 0;
+  }
+  .t1creation-icons {
+    position: absolute;
+    top: 8px;
+    left: 120px;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .t1course-creation {
+    height: 39px;
+    width: 189px;
+    position: relative;
+    color: #fff;
+  }
+  .t1search-input-wrapper-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 36px;
+    max-width: 100%;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.36);
+  }
+  .t1course-search,
+  .t1search-input-container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .t1search-input-container1 {
+    align-self: stretch;
+    justify-content: flex-start;
+    gap: 1px;
+  }
+  .t1course-search {
+    width: 672px;
+    justify-content: flex-end;
+    padding: 0 0 9px;
+    box-sizing: border-box;
+  }
+  .t1image-51-icon {
+    position: relative;
+    object-fit: cover;
+    display: none;
+    min-height: 71px;
+  }
+  .t1image-51-icon,
+  .t1image-52-icon,
+  .t1teacher-image-container {
+    height: 71px;
+    width: 66px;
+    border-radius: 100px;
+  }
+  .t1image-52-icon {
+    position: relative;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .t1teacher-image-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    /* background-image: url(/public/teacher-image-container@3x.png); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+  .t1chevron-down-icon2 {
+    position: absolute;
+    top: 3px;
+    left: 133px;
+    width: 15px;
+    height: 17px;
+    object-fit: cover;
+  }
+  .t1teacher-name {
+    align-self: stretch;
+    position: relative;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .t1teacher {
+    width: 129px;
+    position: relative;
+    font-size: 12px;
+    display: inline-block;
+    color: #706c6c;
+  }
+  .t1teacher-name-parent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2px;
+    height: 100%;
+  }
+  .t1chevron-down-group {
+    align-self: stretch;
+    height: 39px;
+    position: relative;
+  }
+  .t1teacher-name-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 0 11px;
+  }
+  .t1teacher-info {
+    width: 225px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 11px;
+    font-size: 14px;
+  }
+  .t1course-filters,
+  .t1courses-header {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+  }
+  .t1course-filters {
+    flex: 1;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .t1courses-header {
+    width: 1008px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 8px;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 34px;
+    color: #000;
+    font-family: "Istok Web";
+  }
+  .t1frame-child7 {
+    align-self: stretch;
+    height: 831px;
+    position: relative;
+    border-radius: 10px;
+    background-color: #f9f5f5;
+    display: none;
+    z-index: 0;
+  }
+  .t1published-courses {
+    margin: 0;
+    flex: 1;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    z-index: 1;
+  }
+  .t1published-courses-title-contai {
+    width: 292px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 23px;
+    box-sizing: border-box;
+    font-size: 20px;
+  }
+  .t1frame-child8 {
+    align-self: stretch;
+    height: 300px;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    background-color: snow;
+    display: none;
+  }
+  .t1image-35-icon2,
+  .t1image-41-icon2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+    width: 327px;
+    height: 166px;
+    object-fit: cover;
+    z-index: 2;
+  }
+  .t1image-41-icon2 {
+    top: 135px;
+    left: 231px;
+    border-radius: 100px;
+    width: 66px;
+    height: 71px;
+    z-index: 3;
+  }
+  .t1basic-maths-thumbnail {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .t1basic-maths {
+    width: 190px;
+    position: relative;
+    display: inline-block;
+    z-index: 2;
+    color: #000;
+  }
+
+  .t1basic-maths-content,
+  .t1basic-maths-course {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .t1basic-maths-content {
+    flex: 1;
+    flex-direction: column;
+    padding: 180px 9px 3px;
+    position: relative;
+  }
+  .t1basic-maths-course {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 2px 0 0;
+  }
+  .t1continous-enrollement {
+    align-self: stretch;
+    position: relative;
+    z-index: 2;
+  }
+  .t1basic-maths-enrollment {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 14px 0 0;
+  }
+  .t1image-45-icon2,
+  .t1image-47-icon1 {
+    border-radius: 100px;
+    object-fit: cover;
+  }
+  .t1image-47-icon1 {
+    height: 35px;
+    width: 31px;
+    position: absolute;
+    margin: 0 !important;
+    right: -18px;
+    bottom: 0;
+    z-index: 3;
+  }
+  .t1image-45-icon2 {
+    height: 39px;
+    width: 37px;
+    position: relative;
+    z-index: 4;
+  }
+  .t1basic-maths-student-avatars,
+  .t1basic-maths-student-images {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .t1basic-maths-student-images {
+    flex-direction: row;
+    position: relative;
+  }
+  .t1basic-maths-student-avatars {
+    flex-direction: column;
+    padding: 0 9px 0 0;
+  }
+  .t1image-46-icon2 {
+    width: 27px;
+    height: 30px;
+    position: relative;
+    border-radius: 100px;
+    object-fit: cover;
+    z-index: 2;
+  }
+  .t1basic-maths-student-image-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 7px 0 0;
+  }
+  .t1more {
+    align-self: stretch;
+    position: relative;
+    z-index: 3;
+  }
+  .t1basic-maths-more-students {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 20px 0 0;
+  }
+  .t1basic-maths-info,
+  .t1basic-maths-students {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .t1basic-maths-students {
+    width: 151px;
+    margin-left: -30px;
+    color: #5e5a5a;
+  }
+  .t1basic-maths-info {
+    align-self: stretch;
+    padding: 0 0 0 10px;
+    font-size: 14px;
+    color: #5b5a5a;
+  }
+  .t1arithmetic-content-child,
+  .t1rectangle-parent7 {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    background-color: snow;
+    max-width: 100%;
+  }
+  .t1rectangle-parent7 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 0 0 22px;
+    box-sizing: border-box;
+    gap: 32px;
+    z-index: 1;
+  }
+  .t1arithmetic-content-child {
+    width: 327px;
+    height: 300px;
+    position: relative;
+    display: none;
+  }
+  .t1arithmetic {
+    align-self: stretch;
+    position: relative;
+    z-index: 2;
+  }
+  .t1arithmetic-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 48px 0 0;
+  }
+  .t1image-42-icon2 {
+    height: 69px;
+    width: 66px;
+    position: relative;
+    border-radius: 100px;
+    object-fit: cover;
+    z-index: 3;
+  }
+  .t1arithmetic-image-container,
+  .t1arithmetic-thumbnail {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .t1arithmetic-image-container {
+    flex: 1;
+    gap: 35px;
+  }
+  .t1arithmetic-thumbnail {
+    align-self: stretch;
+    padding: 0 13px 0 4px;
+  }
+  .t1continous-enrollement1 {
+    align-self: stretch;
+    position: relative;
+    z-index: 2;
+  }
+  .t1arithmetic-enrollment {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 10px 0 0;
+  }
+  .t1image-48-icon,
+  .t1image-49-icon {
+    border-radius: 100px;
+    object-fit: cover;
+  }
+  .t1image-48-icon {
+    height: 35px;
+    width: 31px;
+    position: absolute;
+    margin: 0 !important;
+    right: -19px;
+    bottom: 0;
+    z-index: 3;
+  }
+  .t1image-49-icon {
+    height: 39px;
+    width: 37px;
+    position: relative;
+    z-index: 4;
+  }
+  .t1arithmetic-student-avatars,
+  .t1arithmetic-student-images {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .t1arithmetic-student-images {
+    flex-direction: row;
+    position: relative;
+  }
+  .t1arithmetic-student-avatars {
+    flex-direction: column;
+    padding: 0 10px 0 0;
+  }
+  .t1image-47-icon2 {
+    width: 27px;
+    height: 30px;
+    position: relative;
+    border-radius: 100px;
+    object-fit: cover;
+    z-index: 2;
+  }
+  .t1arithmetic-student-image-conta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 7px 0 0;
+  }
+  .t1more1 {
+    align-self: stretch;
+    position: relative;
+    z-index: 3;
+  }
+  .t1more-indicator {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 20px 0 0;
+  }
+  .t1arithmetic-students {
+    width: 152px;
+    flex-direction: row;
+    margin-left: -42px;
+    color: #5e5a5a;
+  }
+  .t1arithmetic-content,
+  .t1arithmetic-course,
+  .t1arithmetic-info,
+  .t1arithmetic-students {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .t1arithmetic-info {
+    align-self: stretch;
+    flex-direction: row;
+    font-size: 14px;
+    color: #5b5a5a;
+  }
+  .t1arithmetic-content,
+  .t1arithmetic-course {
+    flex-direction: column;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .t1arithmetic-content {
+    align-self: stretch;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    background-color: snow;
+    padding: 131px 9px 24px 10px;
+    gap: 34px;
+    z-index: 1;
+  }
+  .t1arithmetic-course {
+    padding: 2px 0 0;
+  }
+  .t1calculas-container-child {
+    align-self: stretch;
+    height: 300px;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    background-color: snow;
+    display: none;
+  }
+  .t1calculas {
+    width: 190px;
+    position: relative;
+    display: inline-block;
+    z-index: 2;
+  }
+  .t1image-37-icon2,
+  .t1image-44-icon3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+    width: 325px;
+    height: 165px;
+    object-fit: cover;
+    z-index: 2;
+  }
+  .t1image-44-icon3 {
+    top: 130px;
+    left: 234px;
+    border-radius: 100px;
+    width: 69px;
+    height: 70px;
+    z-index: 3;
+  }
+  .t1calculas-thumbnails {
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+  .t1calculas-info {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 182px 12px 0;
+    position: relative;
+  }
+  .t1continous-enrollement2 {
+    width: 198px;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 2;
+  }
+  .t1continous-enrollement-wrapper {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 10px 0 0;
+    box-sizing: border-box;
+  }
+  .t1image-48-icon1,
+  .t1image-49-icon1 {
+    border-radius: 100px;
+    object-fit: cover;
+  }
+  .t1image-48-icon1 {
+    height: 35px;
+    width: 31px;
+    position: absolute;
+    margin: 0 !important;
+    right: -19px;
+    bottom: 0;
+    z-index: 4;
+  }
+  .t1image-49-icon1 {
+    height: 39px;
+    width: 37px;
+    position: relative;
+    flex-shrink: 0;
+    z-index: 5;
+  }
+  .t1calculas-user-icons,
+  .t1calculas-users {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .t1calculas-user-icons {
+    flex-direction: row;
+    position: relative;
+  }
+  .t1calculas-users {
+    flex-direction: column;
+    padding: 0 10px 0 0;
+  }
+  .t1image-47-icon3 {
+    width: 27px;
+    height: 30px;
+    position: relative;
+    border-radius: 100px;
+    object-fit: cover;
+    flex-shrink: 0;
+    z-index: 3;
+  }
+  .t1more-users {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 7px 0 0;
+  }
+  .t1more2 {
+    align-self: stretch;
+    position: relative;
+    flex-shrink: 0;
+    z-index: 4;
+  }
+  .t1calculas-enrollment-info,
+  .t1more-details {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .t1more-details {
+    width: 78px;
+    flex-direction: column;
+    padding: 20px 0 0;
+    box-sizing: border-box;
+    color: #5e5a5a;
+  }
+  .t1calculas-enrollment-info {
+    flex: 1;
+    flex-direction: row;
+  }
+  .t1calculas-container,
+  .t1calculas-enrollments {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .t1calculas-enrollments {
+    flex-direction: row;
+    padding: 0 15px 0 8px;
+    font-size: 14px;
+    color: #5b5a5a;
+  }
+  .t1calculas-container {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    background-color: snow;
+    flex-direction: column;
+    padding: 0 0 20px 2px;
+    gap: 35px;
+    z-index: 1;
+  }
+  .t1calculas-course,
+  .t1courses-grid {
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .t1calculas-course {
+    display: flex;
+    flex-direction: column;
+    padding: 4px 0 0;
+  }
+  .t1courses-grid {
+    width: 1022px;
+    display: grid;
+    flex-direction: row;
+    padding: 0 0 27px;
+    gap: 19.5px;
+    grid-template-columns: repeat(3, minmax(247px, 1fr));
+    color: #3d3c3c;
+  }
+  .t1image-36-icon2,
+  .t1image-38-icon2 {
+    position: absolute;
+    margin: 0 !important;
+    border-radius: 20px;
+    object-fit: cover;
+    z-index: 2;
+  }
+  .t1image-36-icon2 {
+    width: 328px;
+    height: 169px;
+    top: 88px;
+    left: 348px;
+  }
+  .t1image-38-icon2 {
+    width: 327px;
+    height: 165px;
+    bottom: 213px;
+    left: 350px;
+  }
+  .t1course-header-child {
+    align-self: stretch;
+    height: 300px;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    background-color: snow;
+    display: none;
+  }
+  .t1image-40-icon2,
+  .t1image-44-icon4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+    width: 327px;
+    height: 163px;
+    object-fit: cover;
+    z-index: 2;
+  }
+  .t1image-44-icon4 {
+    top: 137px;
+    left: 234px;
+    border-radius: 100px;
+    width: 63px;
+    height: 68px;
+    z-index: 3;
+  }
+  .t1course-name {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .t1geometry {
+    width: 190px;
+    position: relative;
+    display: inline-block;
+    z-index: 2;
+  }
+  .t1course-title1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 171px 12px 11px;
+    position: relative;
+  }
+  .t1continous-enrollement3 {
+    align-self: stretch;
+    position: relative;
+    z-index: 2;
+  }
+  .t1enrollment-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 14px 0 0;
+  }
+  .t1image-48-icon2,
+  .t1image-49-icon2 {
+    border-radius: 100px;
+    object-fit: cover;
+  }
+  .t1image-48-icon2 {
+    height: 35px;
+    width: 31px;
+    position: absolute;
+    margin: 0 !important;
+    right: -19px;
+    bottom: 0;
+    z-index: 3;
+  }
+  .t1image-49-icon2 {
+    height: 39px;
+    width: 37px;
+    position: relative;
+    z-index: 4;
+  }
+  .t1user-icons,
+  .t1user-icons-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .t1user-icons {
+    flex-direction: row;
+    position: relative;
+  }
+  .t1user-icons-wrapper {
+    flex-direction: column;
+    padding: 0 10px 0 0;
+  }
+  .t1image-47-icon4 {
+    width: 27px;
+    height: 30px;
+    position: relative;
+    border-radius: 100px;
+    object-fit: cover;
+    z-index: 2;
+  }
+  .t1more-users1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 7px 0 0;
+  }
+  .t1more3 {
+    align-self: stretch;
+    position: relative;
+    z-index: 3;
+  }
+  .t1more-details1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 20px 0 0;
+  }
+  .t1course-users {
+    width: 152px;
+    justify-content: flex-start;
+    margin-left: -33px;
+    color: #5e5a5a;
+  }
+  .t1course-details2,
+  .t1course-enrollment,
+  .t1course-users {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .t1course-enrollment {
+    flex: 1;
+    justify-content: flex-start;
+  }
+  .t1course-details2 {
+    align-self: stretch;
+    justify-content: flex-end;
+    padding: 0 2px 0 8px;
+    font-size: 14px;
+    color: #5b5a5a;
+  }
+  .t1course-header,
+  .t1course-header-item {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    background-color: snow;
+    max-width: 100%;
+  }
+  .t1course-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 0 0 20px;
+    box-sizing: border-box;
+    gap: 35px;
+    z-index: 1;
+  }
+  .t1course-header-item {
+    width: 327px;
+    height: 300px;
+    position: relative;
+    display: none;
+  }
+  .t1algebra {
+    align-self: stretch;
+    position: relative;
+    z-index: 2;
+  }
+  .t1algebra-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 28px 0 0;
+  }
+  .t1image-45-icon3 {
+    height: 68px;
+    width: 61px;
+    position: relative;
+    border-radius: 100px;
+    object-fit: cover;
+    z-index: 3;
+  }
+  .t1frame-parent15 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 25px 0 0;
+    gap: 37px;
+  }
+  .t1continous-enrollement4 {
+    align-self: stretch;
+    position: relative;
+    z-index: 2;
+  }
+  .t1continous-enrollement-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 10px 0 0;
+  }
+  .t1image-48-icon3,
+  .t1image-49-icon3 {
+    border-radius: 100px;
+    object-fit: cover;
+  }
+  .t1image-48-icon3 {
+    height: 35px;
+    width: 31px;
+    position: absolute;
+    margin: 0 !important;
+    right: -19px;
+    bottom: 0;
+    z-index: 3;
+  }
+  .t1image-49-icon3 {
+    height: 39px;
+    width: 37px;
+    position: relative;
+    z-index: 4;
+  }
+  .t1dummy-icons,
+  .t1dummy-icons-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .t1dummy-icons {
+    flex-direction: row;
+    position: relative;
+  }
+  .t1dummy-icons-wrapper {
+    flex-direction: column;
+    padding: 0 10px 0 0;
+  }
+  .t1image-47-icon5 {
+    width: 27px;
+    height: 30px;
+    position: relative;
+    border-radius: 100px;
+    object-fit: cover;
+    z-index: 2;
+  }
+  .t1dummy-more {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 7px 0 0;
+  }
+  .t1more4 {
+    align-self: stretch;
+    position: relative;
+    z-index: 3;
+  }
+  .t1dummy-details,
+  .t1frame-parent16,
+  .t1frame-parent17 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .t1dummy-details {
+    flex: 1;
+    flex-direction: column;
+    padding: 20px 0 0;
+  }
+  .t1frame-parent16,
+  .t1frame-parent17 {
+    flex-direction: row;
+  }
+  .t1frame-parent17 {
+    width: 152px;
+    margin-left: -37px;
+    color: #5e5a5a;
+  }
+  .t1frame-parent16 {
+    align-self: stretch;
+    font-size: 14px;
+    color: #5b5a5a;
+  }
+  .t1course-header1,
+  .t1trigonometry-container-child {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    background-color: snow;
+  }
+  .t1course-header1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 143px 2px 22px 12px;
+    box-sizing: border-box;
+    gap: 27px;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .t1trigonometry-container-child {
+    align-self: stretch;
+    height: 300px;
+    position: relative;
+    display: none;
+  }
+  .t1image-39-icon2,
+  .t1image-46-icon3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+    width: 316px;
+    height: 166px;
+    object-fit: cover;
+    z-index: 2;
+  }
+  .t1image-46-icon3 {
+    top: 146px;
+    left: 234px;
+    border-radius: 100px;
+    width: 66px;
+    height: 68px;
+    z-index: 3;
+  }
+  .t1trigonometry-header {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .t1trigonometry {
+    width: 190px;
+    position: relative;
+    display: inline-block;
+    z-index: 2;
+  }
+  .t1trigonometry-info {
+    width: 316px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 174px 12px 17px;
+    box-sizing: border-box;
+    position: relative;
+  }
+  .t1continous-enrollement5 {
+    align-self: stretch;
+    position: relative;
+    z-index: 2;
+  }
+  .t1continous-enrollement-frame {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 12px 0 0;
+  }
+  .t1image-48-icon4,
+  .t1image-49-icon4 {
+    border-radius: 100px;
+    object-fit: cover;
+  }
+  .t1image-48-icon4 {
+    height: 35px;
+    width: 31px;
+    position: absolute;
+    margin: 0 !important;
+    right: -19px;
+    bottom: 0;
+    z-index: 3;
+  }
+  .t1image-49-icon4 {
+    height: 39px;
+    width: 37px;
+    position: relative;
+    z-index: 4;
+  }
+  .t1image-48-parent,
+  .t1trigonometry-user-icons {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .t1image-48-parent {
+    flex-direction: row;
+    position: relative;
+  }
+  .t1trigonometry-user-icons {
+    flex-direction: column;
+    padding: 0 10px 0 0;
+  }
+  .t1image-47-icon6 {
+    width: 27px;
+    height: 30px;
+    position: relative;
+    border-radius: 100px;
+    object-fit: cover;
+    z-index: 2;
+  }
+  .t1more-users2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 7px 0 0;
+  }
+  .t1more5 {
+    align-self: stretch;
+    position: relative;
+    z-index: 3;
+  }
+  .t1more-details2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 20px 0 0;
+  }
+  .t1trigonometry-users {
+    width: 152px;
+    margin-left: -33px;
+    color: #5e5a5a;
+  }
+  .t1trigonometry-enrollment-info,
+  .t1trigonometry-enrollments,
+  .t1trigonometry-users {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .t1trigonometry-enrollment-info {
+    flex: 1;
+  }
+  .t1trigonometry-enrollments {
+    align-self: stretch;
+    padding: 0 0 0 12px;
+    font-size: 14px;
+    color: #5b5a5a;
+  }
+  .t1trigonometry-container,
+  .t1trigonometry-course {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .t1trigonometry-container {
+    align-self: stretch;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    background-color: snow;
+    justify-content: flex-start;
+    padding: 0 0 18px 1px;
+    gap: 28px;
+    z-index: 1;
+  }
+  .t1trigonometry-course {
+    justify-content: flex-end;
+    padding: 0 0 3px;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .t1course-entry,
+  .t1courses-container {
+    flex-direction: row;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .t1course-entry {
+    flex: 1;
+    display: grid;
+    align-items: flex-end;
+    gap: 20px;
+    grid-template-columns: repeat(3, minmax(247px, 1fr));
+  }
+  .t1courses-container {
+    width: 1028px;
+    display: flex;
+    align-items: flex-start;
+    padding: 0 2px;
+    box-sizing: border-box;
+    color: #3d3c3c;
+  }
+  .t1see-all1 {
+    width: 165px;
+    position: absolute;
+    margin: 0 !important;
+    top: 31px;
+    right: -64px;
+    font-size: 14px;
+    display: inline-block;
+    z-index: 1;
+  }
+  .t1rectangle-parent6 {
+    align-self: stretch;
+    border-radius: 10px;
+    background-color: #f9f5f5;
+    flex-direction: column;
+    padding: 26px 1px 76px;
+    box-sizing: border-box;
+    position: relative;
+    gap: 33px;
+    max-width: 100%;
+  }
+  .t1courses-content,
+  .t1desktop-11,
+  .t1main-content1,
+  .t1rectangle-parent6 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .t1courses-content {
+    align-self: stretch;
+    flex-direction: column;
+    gap: 22px;
+    max-width: 100%;
+    text-align: left;
+    font-size: 16px;
+    color: #000;
+    font-family: "Istok Web";
+  }
+  .t1desktop-11,
+  .t1main-content1 {
+    box-sizing: border-box;
+  }
+  .t1main-content1 {
+    width: 1053px;
+    flex-direction: column;
+    padding: 29px 0 0;
+    max-width: 100%;
+  }
+  .t1desktop-11 {
+    width: 100%;
+    position: relative;
+    border-radius: 20px;
+    background: linear-gradient(241.96deg, #efefef, rgba(74, 152, 163, 0));
+    overflow: hidden;
+    flex-direction: row;
+    padding: 0 1px 19px;
+    gap: 22px;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    font-size: 16px;
+    color: #2b59ce;
+    font-family: "Istok Web";
+  }
+  @media screen and (max-width: 1350px) {
+    .t1desktop-11 {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 1150px) {
+    .t1rectangle-parent5,
+    .t1rectangle-parent6 {
+      padding-top: 24px;
+      padding-bottom: 20px;
+      box-sizing: border-box;
+    }
+    .t1rectangle-parent6 {
+      padding-top: 20px;
+      padding-bottom: 49px;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .t1rectangle-parent5 {
+      padding-top: 20px;
+      box-sizing: border-box;
+    }
+    .t1search-input-wrapper-parent {
+      gap: 18px;
+    }
+    .t1course-entry,
+    .t1courses-grid {
+      justify-content: center;
+      grid-template-columns: repeat(2, minmax(247px, 428px));
+    }
+    .t1course-entry {
+      grid-template-columns: repeat(2, minmax(247px, 429px));
+    }
+    .t1rectangle-parent6 {
+      gap: 16px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .t1navigation-panel {
+      gap: 17px;
+    }
+    .t1rectangle-parent5 {
+      gap: 231px;
+      padding-left: 20px;
+      box-sizing: border-box;
+    }
+    .t1published-courses {
+      font-size: 16px;
+    }
+    .t1rectangle-parent7 {
+      gap: 16px;
+    }
+    .t1arithmetic-content,
+    .t1arithmetic-image-container,
+    .t1calculas-container {
+      gap: 17px;
+    }
+    .t1courses-grid {
+      grid-template-columns: minmax(247px, 1fr);
+    }
+    .t1course-header {
+      gap: 17px;
+    }
+    .t1frame-parent15 {
+      gap: 18px;
+    }
+    .t1course-entry {
+      grid-template-columns: minmax(247px, 1fr);
+    }
+    .t1rectangle-parent6 {
+      padding-bottom: 32px;
+      box-sizing: border-box;
+    }
+  }

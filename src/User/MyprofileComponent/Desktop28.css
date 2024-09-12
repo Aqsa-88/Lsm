@@ -1,0 +1,1086 @@
+.h1calendar-13 {
+    height: 44px;
+    width: 39px;
+    position: relative;
+    display: none;
+  }
+  .h1frame-child50,
+  .h1group-icon6 {
+    position: relative;
+    max-width: 100%;
+  }
+  .h1frame-child50 {
+    width: 340px;
+    height: 1005px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    background-color: snow;
+    display: none;
+    z-index: 0;
+  }
+  .h1group-icon6 {
+    height: 105px;
+    flex: 1;
+    overflow: hidden;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .h1group-wrapper2 {
+    width: 223px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 40px;
+    box-sizing: border-box;
+  }
+  .h1details-icon {
+    height: 30px;
+    width: 28px;
+    position: relative;
+    z-index: 1;
+  }
+  .h1details-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 10px 0 6px;
+  }
+  .h1beximco-pharma-ltd,
+  .h1query-inner-join8 {
+    width: 41px;
+    height: 29px;
+    position: relative;
+    z-index: 1;
+  }
+  .h1query-inner-join8 {
+    height: 45px;
+    object-fit: cover;
+  }
+  .h1frame-parent44,
+  .h1query-inner-join-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .h1query-inner-join-container {
+    flex-direction: row;
+    padding: 0 0 0 3px;
+  }
+  .h1frame-parent44 {
+    flex-direction: column;
+    gap: 37.5px;
+  }
+  .h1dashboard6 {
+    width: 178px;
+    display: inline-block;
+    cursor: pointer;
+  }
+  .h1category4,
+  .h1courses6,
+  .h1dashboard6 {
+    position: relative;
+    z-index: 1;
+  }
+  .h1category4 {
+    width: 142px;
+    display: inline-block;
+  }
+  .h1courses6 {
+    flex: 1;
+    cursor: pointer;
+  }
+  .h1courses-frame {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 0 5px;
+  }
+  .h1dashboard-container {
+    align-self: stretch;
+    flex-direction: column;
+    gap: 46px;
+  }
+  .h1dashboard-container,
+  .h1frame-parent42,
+  .h1frame-parent43,
+  .h1frame-wrapper30 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .h1frame-wrapper30 {
+    flex: 1;
+    flex-direction: column;
+    padding: 8px 0 0;
+  }
+  .h1frame-parent42,
+  .h1frame-parent43 {
+    align-self: stretch;
+    flex-direction: row;
+    gap: 24px;
+  }
+  .h1frame-parent42 {
+    flex-direction: column;
+    padding: 0 23px 0 0;
+    gap: 51px;
+  }
+  .h1google-classroom2 {
+    width: 39px;
+    height: 43px;
+    position: absolute;
+    margin: 0 !important;
+    top: 460px;
+    left: 52px;
+    z-index: 1;
+  }
+  .h1checked-user-male3 {
+    width: 62px;
+    height: 42px;
+  }
+  .h1checked-user-male3,
+  .h1feedback-icon,
+  .h1feedback5 {
+    position: relative;
+    z-index: 1;
+  }
+  .h1feedback-icon {
+    height: 37px;
+    width: 37px;
+  }
+  .h1feedback5 {
+    align-self: stretch;
+  }
+  .h1feedback-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 8px 0 0;
+  }
+  .h1feedback-container,
+  .h1feedback-container-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .h1feedback-container {
+    flex: 1;
+    gap: 20px;
+  }
+  .h1feedback-container-wrapper {
+    align-self: stretch;
+    padding: 0 5px;
+  }
+  .h1help-icon3,
+  .h1help5 {
+    position: relative;
+    z-index: 1;
+  }
+  .h1help-icon3 {
+    height: 45px;
+    width: 40px;
+    object-fit: cover;
+  }
+  .h1help5 {
+    align-self: stretch;
+  }
+  .h1help-wrapper1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 10px 0 0;
+  }
+  .h1help-parent1 {
+    align-self: stretch;
+    flex-direction: row;
+    gap: 27px;
+    color: #373739;
+  }
+  .h1frame-parent46,
+  .h1frame-wrapper33,
+  .h1help-parent1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .h1frame-parent46 {
+    flex: 1;
+    flex-direction: column;
+    gap: 29px;
+  }
+  .h1frame-wrapper33 {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 4px 0 3px;
+  }
+  .h1setting-icon,
+  .h1setting5 {
+    position: relative;
+    z-index: 1;
+  }
+  .h1setting-icon {
+    height: 38.4px;
+    width: 37.4px;
+  }
+  .h1setting5 {
+    align-self: stretch;
+  }
+  .h1setting-container1,
+  .h1setting-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .h1setting-wrapper {
+    flex: 1;
+    flex-direction: column;
+    padding: 7px 0 0;
+  }
+  .h1setting-container1 {
+    width: 269px;
+    flex-direction: row;
+    gap: 30.6px;
+  }
+  .h1log-out5,
+  .h1logout-icon4 {
+    position: relative;
+    z-index: 1;
+  }
+  .h1logout-icon4 {
+    height: 45px;
+    width: 53px;
+    object-fit: cover;
+  }
+  .h1log-out5 {
+    align-self: stretch;
+  }
+  .h1log-out-wrapper,
+  .h1logout-parent,
+  .h1setting-container-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .h1log-out-wrapper {
+    flex: 1;
+    flex-direction: column;
+    padding: 7px 0 0;
+  }
+  .h1logout-parent,
+  .h1setting-container-parent {
+    align-self: stretch;
+    flex-direction: row;
+    gap: 21px;
+  }
+  .h1setting-container-parent {
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 20.6px;
+    color: #373739;
+  }
+  .h1frame-parent45,
+  .h1frame-wrapper32 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .h1frame-parent45 {
+    flex: 1;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .h1frame-wrapper32 {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 0 0 2px;
+  }
+  .h1checked-user-male-parent {
+    flex: 1;
+    flex-direction: column;
+    gap: 29px;
+  }
+  .h1checked-user-male-parent,
+  .h1frame-wrapper31,
+  .h1rectangle-parent43 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .h1frame-wrapper31 {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 0 0 1px;
+  }
+  .h1rectangle-parent43 {
+    width: 310px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    background-color: snow;
+    flex-direction: column;
+    padding: 21px 12px 16px 50px;
+    box-sizing: border-box;
+    position: relative;
+    gap: 323px;
+    flex-shrink: 0;
+    max-width: 100%;
+  }
+  .h1my-profile {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+  }
+  .h1my-profile-wrapper {
+    width: 331px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 6px 0 0;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .h1profile-icon {
+    height: 24px;
+    width: 19px;
+    position: relative;
+  }
+  .h1image-placeholder-icon {
+    width: 24px;
+    height: 17px;
+    position: relative;
+  }
+  .h1image-placeholder-wrapper,
+  .h1profile-icon-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .h1image-placeholder-wrapper {
+    flex-direction: column;
+    padding: 3px 0 0;
+  }
+  .h1profile-icon-parent {
+    flex-direction: row;
+    gap: 20px;
+  }
+  .h1frame-wrapper34 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 0 22px;
+  }
+  .h1image-9-icon4 {
+    height: 69px;
+    width: 72px;
+    position: relative;
+    border-radius: 100px;
+    object-fit: cover;
+  }
+  .h1student,
+  .h1user-name4 {
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .h1user-name4 {
+    align-self: stretch;
+    height: 24px;
+  }
+  .h1student {
+    text-decoration: none;
+    color: inherit;
+    min-width: 43px;
+    z-index: 1;
+  }
+  .h1student-wrapper,
+  .h1user-name-parent1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .h1student-wrapper {
+    flex-direction: row;
+    padding: 0 1px;
+    margin-top: -5px;
+    font-size: 12px;
+    color: #3e3e3e;
+  }
+  .h1user-name-parent1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    flex-direction: column;
+    height: 100%;
+  }
+  .h1chevron-down-icon8 {
+    position: absolute;
+    top: 0;
+    left: 136px;
+    width: 15px;
+    height: 17px;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .h1name-container {
+    align-self: stretch;
+    height: 36px;
+    position: relative;
+  }
+  .h1name-container-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 16px 0 0;
+  }
+  .h1frame-parent48,
+  .h1frame-parent49,
+  .h1image-9-parent1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .h1image-9-parent1 {
+    flex: 1;
+    align-items: flex-start;
+    gap: 16px;
+    min-width: 165px;
+  }
+  .h1frame-parent48,
+  .h1frame-parent49 {
+    width: 404px;
+    align-items: flex-end;
+    gap: 87px;
+    max-width: 100%;
+    font-size: 14px;
+  }
+  .h1frame-parent48 {
+    width: 1005px;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    text-align: left;
+    font-size: 34px;
+    color: #000;
+    font-family: "Istok Web";
+  }
+  .h1image-56-icon {
+    height: 69px;
+    width: 72px;
+    position: absolute;
+    margin: 0 !important;
+    top: 37px;
+    right: 150px;
+    border-radius: 100px;
+    object-fit: cover;
+  }
+  .h1information-details-child {
+    width: 1042px;
+    height: 837px;
+    position: relative;
+    border-radius: 20px;
+    background-color: snow;
+    display: none;
+    max-width: 100%;
+  }
+  .h1user-information1 {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    display: inline-block;
+    width: 345px;
+    height: 29px;
+    z-index: 2;
+  }
+  .h1napa-syrup {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 10px;
+    background-color: snow;
+    border: 1px solid #7f7c7c;
+    box-sizing: border-box;
+    width: 108px;
+    z-index: 3;
+  }
+  .h1edit {
+    text-decoration: none;
+    position: absolute;
+    top: 10px;
+    left: 37px;
+    color: inherit;
+    display: inline-block;
+    width: 124px;
+    height: 29px;
+    z-index: 4;
+  }
+  .h1napa-syrup-parent {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 330px;
+    width: 161px;
+  }
+  .h1header-content {
+    width: 491px;
+    height: 51px;
+    position: relative;
+    max-width: 100%;
+  }
+  .h1input-fields,
+  .h1username {
+    position: relative;
+    z-index: 2;
+  }
+  .h1username {
+    width: 164px;
+    display: inline-block;
+  }
+  .h1input-fields {
+    align-self: stretch;
+    flex: 1;
+    border-radius: 10px;
+    background-color: snow;
+    border: 1px solid #555050;
+  }
+  .h1field-labels {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 9px;
+  }
+  .h1email-address1 {
+    width: 164px;
+    position: relative;
+    display: inline-block;
+    z-index: 2;
+  }
+  .h1field-labels-child {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    border-radius: 10px;
+    background-color: snow;
+    border: 1px solid #555050;
+    z-index: 2;
+  }
+  .h1field-labels1 {
+    align-self: stretch;
+    flex: 1;
+    gap: 4px;
+  }
+  .h1field-labels1,
+  .h1information-fields,
+  .h1information-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .h1information-fields {
+    align-self: stretch;
+    flex: 1;
+    gap: 21px;
+    font-size: 16px;
+  }
+  .h1information-header {
+    height: 280px;
+    width: 654px;
+    gap: 35px;
+    max-width: 100%;
+  }
+  .h1image-57-icon {
+    height: 145px;
+    width: 148px;
+    position: relative;
+    border-radius: 100px;
+    object-fit: cover;
+    z-index: 2;
+  }
+  .h1image-preview {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 12px;
+  }
+  .h1change-image-button {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 10px;
+    background-color: snow;
+    border: 1px solid #7f7c7c;
+    box-sizing: border-box;
+    width: 171px;
+    z-index: 2;
+  }
+  .h1change-image {
+    position: absolute;
+    top: 15px;
+    left: 36px;
+    display: inline-block;
+    width: 162px;
+    height: 23px;
+    z-index: 3;
+  }
+  .h1change-image-button-parent {
+    align-self: stretch;
+    height: 51px;
+    position: relative;
+  }
+  .h1upload-content,
+  .h1upload-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .h1upload-content {
+    align-self: stretch;
+    justify-content: flex-start;
+    gap: 29.1px;
+  }
+  .h1upload-content-wrapper {
+    width: 198px;
+    justify-content: flex-end;
+    padding: 0 0 18px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  .h1details-container {
+    width: 945px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    max-width: 100%;
+    gap: 20px;
+    font-size: 20px;
+  }
+  .h1div11,
+  .h1first-name {
+    position: relative;
+    z-index: 2;
+  }
+  .h1first-name {
+    width: 164px;
+    display: inline-block;
+  }
+  .h1div11 {
+    align-self: stretch;
+    flex: 1;
+    border-radius: 10px;
+    background-color: snow;
+    border: 1px solid #555050;
+  }
+  .h1first-name-parent {
+    width: 654px;
+    height: 86px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 6px;
+    max-width: 100%;
+  }
+  .h1last-name {
+    flex: 1;
+    position: relative;
+    z-index: 2;
+  }
+  .h1last-name-content {
+    width: 168px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 2px;
+    box-sizing: border-box;
+  }
+  .h1box {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    border-radius: 10px;
+    background-color: snow;
+    border: 1px solid #555050;
+    z-index: 2;
+  }
+  .h1last-name-content-parent {
+    width: 654px;
+    height: 103px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 19px;
+    box-sizing: border-box;
+    gap: 4px;
+    max-width: 100%;
+  }
+  .h1contact-information {
+    align-self: stretch;
+    position: relative;
+    z-index: 2;
+  }
+  .h1address {
+    width: 155px;
+    position: relative;
+    display: inline-block;
+    z-index: 2;
+  }
+  .h1address-title,
+  .h1address-title-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .h1address-title {
+    align-self: stretch;
+    gap: 28px;
+  }
+  .h1address-title-wrapper {
+    flex: 1;
+    padding: 8px 0 0;
+    box-sizing: border-box;
+    min-width: 189px;
+  }
+  .h1medicine-type {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 10px;
+    background-color: snow;
+    border: 1px solid #7f7c7c;
+    box-sizing: border-box;
+    width: 108px;
+    z-index: 2;
+  }
+  .h1edit1 {
+    position: absolute;
+    top: 11px;
+    left: 37px;
+    display: inline-block;
+    width: 124px;
+    height: 29px;
+    z-index: 3;
+  }
+  .h1medicine-type-parent {
+    height: 51px;
+    width: 161px;
+    position: relative;
+    font-size: 20px;
+  }
+  .h1address-header {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 37px;
+    max-width: 100%;
+  }
+  .h1address-content,
+  .h1image {
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .h1address-content {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 0 2px;
+  }
+  .h1image {
+    width: 443px;
+    height: 57px;
+    position: relative;
+    border-radius: 10px;
+    background-color: snow;
+    border: 1px solid #555050;
+    z-index: 2;
+  }
+  .h1address-content-parent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+    max-width: 100%;
+  }
+  .h1phone-no {
+    height: 66px;
+    flex: 1;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 2;
+  }
+  .h1phone-number {
+    width: 161px;
+    height: 23px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 3px;
+    box-sizing: border-box;
+  }
+  .h1frame-child51 {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    border-radius: 10px;
+    background-color: snow;
+    border: 1px solid #555050;
+    flex-shrink: 0;
+    z-index: 3;
+  }
+  .h1frame-parent50,
+  .h1phone-number-parent {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .h1phone-number-parent {
+    height: 80px;
+    width: 231px;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: -12px;
+  }
+  .h1frame-parent50 {
+    width: 710px;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 0 0 7px;
+    box-sizing: border-box;
+    max-width: 100%;
+    row-gap: 20px;
+  }
+  .h1gender,
+  .h1gender-field {
+    position: absolute;
+    left: 0;
+  }
+  .h1gender {
+    top: 0;
+    display: inline-block;
+    width: 155px;
+    height: 66px;
+    z-index: 2;
+  }
+  .h1gender-field {
+    top: 23px;
+    border-radius: 10px;
+    background-color: snow;
+    border: 1px solid #555050;
+    box-sizing: border-box;
+    width: 222px;
+    height: 57px;
+    z-index: 3;
+  }
+  .h1gender-parent {
+    width: 222px;
+    height: 80px;
+    position: relative;
+  }
+  .h1information-details {
+    flex: 1;
+    border-radius: 20px;
+    background-color: snow;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 21.1px 41px 25.9px;
+    box-sizing: border-box;
+    gap: 21px;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .h1information-content {
+    flex: 1;
+    flex-direction: row;
+    position: relative;
+  }
+  .h1desktop-3-inner,
+  .h1frame-parent47,
+  .h1information-content,
+  .h1information-content-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .h1information-content-wrapper {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 0 0 3px;
+    box-sizing: border-box;
+  }
+  .h1desktop-3-inner,
+  .h1frame-parent47 {
+    flex-direction: column;
+    flex-shrink: 0;
+  }
+  .h1frame-parent47 {
+    align-self: stretch;
+    gap: 20px;
+    text-align: left;
+    font-size: 16px;
+    color: #000;
+    font-family: "Istok Web";
+  }
+  .h1desktop-3-inner {
+    width: 1074px;
+    padding: 67px 29px 0 0;
+    box-sizing: border-box;
+  }
+  .h1addcirclefillwghtgradopsz {
+    align-self: stretch;
+    height: 831px;
+    position: relative;
+    border-radius: 10px;
+    background-color: #f9f5f5;
+    flex-shrink: 0;
+  }
+  .h1desktop-3,
+  .h1profile-footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .h1profile-footer {
+    height: 1005px;
+    width: 1053px;
+    flex-direction: column;
+    padding: 231px 0 0;
+    max-width: 100%;
+    flex-shrink: 0;
+  }
+  .h1desktop-3 {
+    width: 100%;
+    position: relative;
+    border-radius: 20px;
+    background: linear-gradient(241.96deg, #efefef, rgba(74, 152, 163, 0));
+    overflow: hidden;
+    flex-direction: row;
+    padding: 0 1px 19px;
+    gap: 32px;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    font-size: 16px;
+    color: #2b59ce;
+    font-family: "Istok Web";
+  }
+  @media screen and (max-width: 1350px) {
+    .h1desktop-3 {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 1125px) {
+    .h1details-container {
+      flex-wrap: wrap;
+    }
+    .h1information-details {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      box-sizing: border-box;
+    }
+    .h1desktop-3-inner,
+    .h1profile-footer {
+      padding-top: 44px;
+      box-sizing: border-box;
+    }
+    .h1profile-footer {
+      padding-top: 150px;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .h1my-profile {
+      font-size: 27px;
+    }
+    .h1frame-parent48 {
+      flex-wrap: wrap;
+    }
+    .h1information-header {
+      gap: 17px;
+    }
+    .h1address-header {
+      flex: 1;
+      flex-wrap: wrap;
+      gap: 18px;
+    }
+    .h1phone-number-parent {
+      margin-left: 0;
+    }
+    .h1frame-parent50 {
+      flex-wrap: wrap;
+    }
+    .h1desktop-3-inner {
+      padding-top: 29px;
+      box-sizing: border-box;
+    }
+    .h1desktop-3 {
+      gap: 16px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .h1frame-parent42 {
+      gap: 25px;
+    }
+    .h1setting-container1 {
+      gap: 15px;
+    }
+    .h1rectangle-parent43 {
+      gap: 161px;
+      padding-left: 20px;
+      box-sizing: border-box;
+    }
+    .h1my-profile {
+      font-size: 20px;
+    }
+    .h1frame-parent49 {
+      flex-wrap: wrap;
+      gap: 43px;
+    }
+    .h1edit,
+    .h1edit1,
+    .h1user-information1 {
+      font-size: 16px;
+    }
+    .h1profile-footer {
+      padding-top: 97px;
+      box-sizing: border-box;
+    }
+  }

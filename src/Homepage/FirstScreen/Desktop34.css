@@ -1,0 +1,426 @@
+  .vector-parent1 {
+    height: 600px;
+    flex: 1;
+    position: relative;
+    width: 100px;
+  }
+  .illustration-content1 {
+    height: 550px;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+  }
+
+  .group-icon133 {
+    width: 20px;
+    height: 200px;
+    place-items: center;
+    padding-top: 45%;
+    padding-left: 49%;
+
+  }
+
+  .group33 img {
+    display: grid;
+    place-items: center;      /* Centers the image both horizontally and vertically */
+    height: 260px;
+    width: 300px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+
+  }
+  .frame-child1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* width: 500px;  */
+    height: 600px;
+  }
+    /*manage the group-icon12 of picture */
+  .group-wrapper11 {
+    height: 30%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+    padding-top: 2%;
+  }
+  .group-icon121 {
+    width: 150px;
+    height: 150px;
+    place-items: center;
+    padding-top: 16%;
+    padding-left: 70%;
+
+  }
+  .catagory41,
+  .home1 {
+    text-decoration: none;
+    position: relative;
+    font-weight: 600;
+    color: inherit;
+    z-index: 1;
+  }
+  .home1 {
+    width: 120px;
+    display: inline-block;
+    flex-shrink: 0;
+    left:  50px;
+  }
+  .catagory41 {
+    align-self: stretch;
+    width: 120px;
+    right: 10px;
+    left: 25px;
+
+  }
+  .catagory-frame1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 1px 8px 0 0;
+    box-sizing: border-box;
+    min-width: 109px;
+   } /*
+  .sign-in {
+    width: 120px;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 1;
+    left: 40px;
+    color: #000;
+    font-size: 25px;
+  } */
+  .sign-in011{
+   padding-left: 2%;
+   width: 120px;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 1;
+    left: 40px;
+    color: #000;
+    font-size: 23px;
+
+  }
+  .sign-up01{
+    padding-left: 0%;
+    left: 60px;
+    display: inline-block;
+    width: 100px;
+    height: 34px;
+    white-space: nowrap;
+    z-index: 2;
+    background-color: rgb(10, 10, 177);
+    border-radius: 9px;
+    font-size: 16px;
+
+  }
+  /* .sign-up {
+    position: absolute;
+    top: 0px;
+    left: 40px;
+    display: inline-block;
+    width: 124px;
+    height: 34px;
+    white-space: nowrap;
+    z-index: 2;
+    background-color: rgb(10, 10, 177);
+    border-radius: 9px;
+
+  } */
+  .vector-parent21 {
+    height: 54.5px;
+    width: 214.2px;
+    position: relative;
+    padding-right: 0%;
+    left: 4%;
+  }
+  .frame-nav1,
+  .home-parent1 {
+    margin: 0;
+    display: flex;
+    align-items: flex-start;
+  }
+
+   /*home -parent and caragoryform can be manage */
+  .frame-nav1 {
+    top: 0%;
+    bottom: 90%;
+    width: 420px;
+    flex-direction: column;
+    justify-content: flex-end;
+    /* padding: 20px 20px 20px 20px;*/
+    box-sizing: border-box;
+  }
+  .home-parent1 {
+    padding-left: 137%;
+    padding-top: 20%;
+    padding-bottom: 450px;
+   
+/*
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 5px;
+    white-space: nowrap;
+    text-align: left;
+    font-size: 32px; */
+    color: #000;
+    font-family: "Istok Web";
+  }
+
+  .desktop-0-inner,
+  .frame-parent281 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  /*that 2 div frame-parent28 and desktop-0-inner for logo and home catagory signin and up*/
+  .frame-parent281 {
+    /* background-color: aqua; */
+    align-items: flex-end;
+    gap: 10px;
+    text-align: left;
+    font-size: 24px;
+    color: #fff;
+    font-family: "Istok Web";
+    width:700px;
+    
+
+  }
+  .desktop-0-inner {
+    /* background-color: blue; */
+    align-items: flex-start;
+    /* padding: 10px 1px 7.5px 15px; */
+    box-sizing: border-box;
+    z-index: 1;
+
+  }
+/*  ////////////   */
+  .group1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .categories-separator-icon1 {
+    position: absolute;
+    top: 161.6px;
+    left: 240.1px;
+    width: 6.8px;
+    height: 5.7px;
+    z-index: 6;
+  }
+  .group-parent1 {
+    height: 289px;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+  }
+  .see-all41 {
+    flex: 1;
+    position: relative;
+    left: 190px;
+    font-size: 15px;
+    font-family: "Istok Web";
+    color: #000;
+  }
+  .top-catagories1 {
+    flex: 1;
+    position: relative;
+    right: 45px;
+    color: #000;
+
+  }
+  .top-catagories-wrapper1 {
+    flex: 0.9205;
+    /* background-color: blueviolet; */
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px 23px 21px 41px;
+    box-sizing: border-box;
+  }
+
+  .frame-child231 {
+    width: 310px;
+    height: 130px;
+    padding-bottom: 27%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Frame-child241 {
+    width: 296px;
+    height: 130px;
+    padding-bottom: 27%;
+    position: relative;
+    /* display: none; */
+  }
+
+  .chemistry1{
+    width: 90px;
+    font-family: "Istok Web";
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 2;
+    color: #000;
+    right: 97%;
+  }
+  .Math1{
+    width: 50px;
+    font-family: "Istok Web";
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 2;
+    color: #000;
+    right: 99%;
+  }
+
+  .vector-parent51 {
+    flex: 0.9205;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    background-color: #fff;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 0px 0px 20px 0px;
+    box-sizing: border-box;
+    width: 200px;
+    height: 220px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .frame-parent301 {
+    /* background-color: brown; */
+    align-self: stretch;
+    flex-direction: row;
+    gap: 38px;
+    align-items: flex-start;
+    display: flex;
+    justify-content: flex-start;
+    width: 550px;
+    height: 240px;
+  }
+  .frame-parent291 {
+    margin-top: 35%;
+    z-index: 1;
+    flex: 1;
+    /* background-color: palevioletred; */
+    padding-top: 1%;
+    padding-left: 70%;
+    height: 290px;
+    /* padding-right: 600px;*/
+    /* width: 692px; */
+    flex-direction: column;
+    gap: 28px;
+    align-items: flex-start;
+    /* display: flex; */
+    justify-content: flex-start;
+  }
+  .desktop-0 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: linear-gradient(180deg, #fafaff, rgba(250, 250, 255, 0));
+    overflow-y: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    /* padding: 0 0 0 118px; */
+    box-sizing: border-box;
+    line-height: normal;
+    letter-spacing: normal;
+    row-gap: 20px;
+  }
+  @media screen and (max-width: 1350px) {
+    .frame-parent28 {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .catagory4,
+    .home,
+    .sign-in {
+      font-size: 26px;
+    }
+    .frame-parent28 {
+      gap: 24px;
+    }
+    .math,
+    .top-catagories {
+      font-size: 26px;
+    }
+    .vector-parent4 {
+      flex: 1;
+    }
+    .chemistry4 {
+      font-size: 26px;
+    }
+    .vector-parent5 {
+      flex: 1;
+      min-height: auto;
+    }
+    .frame-parent30 {
+      flex-wrap: wrap;
+      gap: 19px;
+    }
+    .desktop-0 {
+      gap: 35px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .catagory4,
+    .home,
+    .sign-in {
+      font-size: 19px;
+    }
+    .home-parent {
+      flex-wrap: wrap;
+    }
+    .sign-up {
+      font-size: 19px;
+    }
+    .see-all4 {
+      font-size: 16px;
+    }
+    .Math4,
+    .top-catagories {
+      font-size: 19px;
+    }
+    .vector-parent4 {
+      gap: 20px;
+    }
+    .chemistry4 {
+      font-size: 19px;
+    }
+    .rectangle-wrapper {
+      padding-left: 20px;
+      padding-right: 20px;
+      box-sizing: border-box;
+    }
+    .frame-parent31 {
+      gap: 20px;
+    }
+    .desktop-0 {
+      gap: 18px;
+    }
+  }

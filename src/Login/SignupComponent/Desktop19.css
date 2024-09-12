@@ -1,0 +1,395 @@
+/* .user-type-select {
+  position: absolute;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 10px;
+    background-color: snow;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 383px;
+  /* position: relative;
+  width: 100%; 
+} */
+
+/* .user-type-dropdown {
+  width: 100%;
+  padding: 10px;
+ background-color: #f0f0f0;  
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+} */
+
+/* Dropdown option styling */
+/* .user-type-dropdown option {
+  background-color: #ffffff;
+  color: #333;
+  padding: 10px;
+} */
+/* .content-child {
+    position: absolute;
+    top: -14px;
+    left: 0;
+    width: 1046.3px;
+    height: 1059.5px;
+  }   */
+     /**/
+  .vector-parent {
+    height: 555px;
+    flex: 1;
+    position: relative;
+    width: 100px;
+  }
+  .illustration-content {
+    height: 599px;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+  }
+  
+  .group-icon13 {
+    width: 359px;
+    height: 350px;
+    place-items: center;  
+    padding-top: 16%;
+    padding-left: 20%;
+
+  }
+  
+  .group3 img {
+    display: grid;
+    place-items: center;      /* Centers the image both horizontally and vertically */
+    height: 370px;
+    width: 490px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;   
+    overflow: hidden;
+  
+  }
+  .frame-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* width: 500px;  */
+    height: 600px;
+  }  
+
+  
+  /*  image first logoo */
+  .group-icon12{
+    width: 230px;
+    height: 170px;
+    place-items: center;  
+    padding-top: 20%;
+    margin-top: 30px;
+  }
+  .logo-container {
+    
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding:  0px  150px;
+    box-sizing: border-box;
+    width: 50%;
+    height: 50%;
+    padding-bottom: 20%;
+  }
+    /*  Username Csssssss */
+  .username-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    background-color: snow;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    padding-left: 20px;
+    width: 350px;
+    height: 40px;
+  }
+  .username {
+    position: absolute;
+    top: 15px;
+    left: 21px;
+    font-size: 16px;
+    display: inline-block;
+    font-family: "Istok Web";
+    color: #969191;
+    text-align: left;
+    width: 418px;
+    height: 23px;
+    z-index: 1;
+  }
+  .username-background-parent {
+    width: 439px;
+    height: 34px;
+    position: relative;
+  }
+   /*  Email Csssssss */
+  .input-backgrounds {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 10px;
+    background-color: snow;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    padding-left: 20px;
+    width: 350px;
+    height: 40px;
+  }
+  .email1 {
+    position: absolute;
+    top: 20px;
+    left: 21px;
+    font-size: 16px;
+    display: inline-block;
+    font-family: "Istok Web";
+    color: #969191;
+    text-align: left;
+    width: 418px;
+    height: 23px;
+    z-index: 1;
+  }
+  .input-backgrounds-parent {
+    align-self: stretch;
+    height: 35px;
+    position: relative;
+  }
+   /*  Password Csssssss */
+  .frame-item {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 10px;
+    background-color: snow;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    padding-left: 20px;
+    width: 350px;
+    height: 40px;
+    z-index: 1;
+  }
+  .password1 {
+    position: absolute;
+    top: 15px;
+    left: 17px;
+    font-size: 16px;
+    display: inline-block;
+    font-family: "Istok Web";
+    color: #969191;
+    text-align: left;
+    width: 422px;
+    height: 23px;
+    z-index: 2;
+  }
+  .rectangle-parent {
+    align-self: stretch;
+    height: 35px;
+    position: relative;
+  }
+  /*  Password  and email div Csssssss */
+  .input-fields1 {
+    width: 439px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px 0px 0px 0px;
+    gap: 26px;
+  
+  }
+   /*  Select user type div Csssssss */
+  .select-user-type {
+    position: absolute;
+    top: 16px;
+    left: 15px;
+    font-size: 16px;
+    display: inline-block;
+    font-family: "Istok Web";
+    color: #969191;
+    text-align: left;
+    width: 435px;
+    height: 40px;
+    z-index: 2;
+    }
+    
+.user-type-dropdown:focus {
+  position: absolute;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 10px;
+    background-color: snow;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 350px;
+} 
+.user-type-dropdown {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    background-color: snow;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    padding-left: 17px;
+    width: 100%;
+    height: 100%;
+  } 
+  .user-type-select {
+    position: absolute;
+    height: calc(100% - 2px);
+    top: 0;
+    bottom: 2px;
+    left: 0;
+    width: 350px;
+    height: 40px;
+  }
+  .select-user-type-parent {
+    align-self: stretch;
+    height: 56px;
+    position: relative;
+  }
+    /*  Password ,Select user,User name Type and email div Csssssss */
+  .form-container1 {
+    width: 470px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    padding: 0px 0px 0px 90px;
+    gap: 27px;
+  }
+
+  /*  Signup button Csssssss */
+  .sign-up-background {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    border-radius: 10px;
+    background-color: #2525ad;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    padding-left: 20px;
+    width: 350px;
+    height: 40px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .sign-up3 {
+    position: absolute;
+    top: 11px;
+    left: 140px;
+    font-size: 16px;
+    display: inline-block;
+    font-family: "Istok Web";
+    color: #fff;
+    text-align: left;
+    width: 124px;
+    height: 21px;
+    z-index: 2;
+  }
+  .sign-up2 {
+    width: 380px;
+    height: 54px;
+    position: relative;
+    white-space: nowrap;
+    max-width: 100%;
+  }
+  .sign-in2 {
+    text-decoration: underline;
+  }
+  .sign-in1 {
+    color: inherit;
+  }
+  .already-have-an-account-sign {
+    margin: 0;
+    padding: 0px 0px 0px 70px;
+  }
+  .already-have-an-container {
+    width: 442px;
+    position: relative;
+    font-size: 12px;
+    font-family: Rubik;
+    color: #000;
+    text-align: left;
+    display: inline-block;
+    flex-shrink: 0;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .sign-in-prompt {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    max-width: 100%;
+  }
+  .sign-up-button {
+    flex: 1;
+    flex-direction: column;
+    gap: 9px;
+    padding: 0px 0px 0px 65px;
+  }
+  /* .side-panel,
+  .sign-up-button,
+  .sign-up-button-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  } */
+  .sign-up-button-container {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 0 0 14px;
+    box-sizing: border-box;
+  }
+  .side-panel {
+      width: 531px;
+      padding: 19px 0 0;
+      box-sizing: border-box;
+      height: 600px;
+      padding-bottom: 10%;
+  }
+  .desktop-2 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: linear-gradient(180deg, #fafaff, rgba(250, 250, 255, 0));
+    overflow-y: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 0 118px;
+    box-sizing: border-box;
+    line-height: normal;
+    letter-spacing: normal;
+    row-gap: 20px;
+    /* width: 100%;
+    height: 1024px;
+    position: relative;
+    background: linear-gradient(180deg, #fafaff, rgba(250, 250, 255, 0));
+    overflow-y: auto;
+    line-height: normal;
+    letter-spacing: normal; */
+  }

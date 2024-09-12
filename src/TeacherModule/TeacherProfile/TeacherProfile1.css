@@ -1,0 +1,1004 @@
+.i1calendar-131 {
+    height: 44px;
+    width: 39px;
+    position: relative;
+    display: none;
+  }
+  .i1frame-inner,
+  .i1group-icon1 {
+    position: relative;
+    max-width: 100%;
+  }
+  .i1frame-inner {
+    width: 340px;
+    height: 1005px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    background-color: snow;
+    display: none;
+    z-index: 0;
+  }
+  .i1group-icon1 {
+    height: 105px;
+    flex: 1;
+    overflow: hidden;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .i1group-container {
+    width: 223px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 40px;
+    box-sizing: border-box;
+  }
+  .i1vector-icon {
+    height: 30px;
+    width: 28px;
+    position: relative;
+    z-index: 1;
+  }
+  .i1vector-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 10px 0 6px;
+  }
+  .i1i-am-not-perfect-lets-transce,
+  .i1query-inner-join1 {
+    width: 41px;
+    height: 29px;
+    position: relative;
+    z-index: 1;
+  }
+  .i1query-inner-join1 {
+    height: 45px;
+    object-fit: cover;
+  }
+  .i1frame-parent7,
+  .i1query-inner-join-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .i1query-inner-join-container {
+    flex-direction: row;
+    padding: 0 0 0 3px;
+  }
+  .i1frame-parent7 {
+    flex-direction: column;
+    gap: 37.5px;
+  }
+  .i1dashboard1 {
+    width: 178px;
+    display: inline-block;
+    cursor: pointer;
+  }
+  .i1catagory,
+  .i1courses1,
+  .i1dashboard1 {
+    position: relative;
+    z-index: 1;
+  }
+  .i1catagory {
+    width: 142px;
+    display: inline-block;
+  }
+  .i1courses1 {
+    flex: 1;
+    cursor: pointer;
+  }
+  .i1courses-container {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 0 5px;
+  }
+  .i1dashboard-category {
+    align-self: stretch;
+    flex-direction: column;
+    gap: 46px;
+  }
+  .i1dashboard-category,
+  .i1dashboard-category-wrapper,
+  .i1frame-parent5,
+  .i1frame-parent6 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .i1dashboard-category-wrapper {
+    flex: 1;
+    flex-direction: column;
+    padding: 8px 0 0;
+  }
+  .i1frame-parent5,
+  .i1frame-parent6 {
+    align-self: stretch;
+    flex-direction: row;
+    gap: 24px;
+  }
+  .i1frame-parent5 {
+    flex-direction: column;
+    padding: 0 23px 0 0;
+    gap: 51px;
+  }
+  .i1checked-user-male1,
+  .i1help-icon1 {
+    width: 62px;
+    height: 42px;
+    position: relative;
+    z-index: 1;
+  }
+  .i1help-icon1 {
+    height: 45px;
+    width: 40px;
+    object-fit: cover;
+  }
+  .i1help-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 10px 0 3px;
+  }
+  .i1vector-icon1 {
+    height: 38.4px;
+    width: 37.4px;
+    position: relative;
+    z-index: 1;
+  }
+  .i1vector-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 10px 0 6px;
+  }
+  .i1logout-icon1 {
+    align-self: stretch;
+    height: 45px;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .i1help-logout-container {
+    width: 53px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 22.3px;
+  }
+  .i1help1,
+  .i1log-out1,
+  .i1setting1 {
+    align-self: stretch;
+    position: relative;
+    z-index: 1;
+  }
+  .i1setting-logout {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 36px;
+  }
+  .i1setting-logout-wrapper {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 0 0 4px;
+  }
+  .i1frame-wrapper6,
+  .i1help-group,
+  .i1help-logout-container-parent,
+  .i1setting-logout-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .i1help-group {
+    align-self: stretch;
+    flex-direction: column;
+    gap: 43px;
+  }
+  .i1frame-wrapper6,
+  .i1help-logout-container-parent {
+    flex: 1;
+  }
+  .i1frame-wrapper6 {
+    flex-direction: column;
+    padding: 10px 0 0;
+  }
+  .i1help-logout-container-parent {
+    flex-direction: row;
+    gap: 17px;
+  }
+  .i1frame-wrapper5 {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 0 0 2px;
+  }
+  .i1checked-user-male-group,
+  .i1frame-wrapper4,
+  .i1frame-wrapper5 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .i1checked-user-male-group {
+    flex: 1;
+    flex-direction: column;
+    gap: 95px;
+  }
+  .i1frame-wrapper4 {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 0 0 1px;
+    color: #373739;
+  }
+  .i1google-classroom1 {
+    width: 39px;
+    height: 43px;
+    position: absolute;
+    margin: 0 !important;
+    top: 460px;
+    left: 52px;
+    z-index: 1;
+  }
+  .i1rectangle-group {
+    width: 340px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    background-color: snow;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 21px 12px 16px 50px;
+    box-sizing: border-box;
+    position: relative;
+    gap: 323px;
+    flex-shrink: 0;
+    max-width: 100%;
+  }
+  .i1my-profile1 {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    white-space: nowrap;
+  }
+  .i1my-profile-container {
+    width: 331px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 12px 0 0;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .i1hey-neha,
+  .i1vector-icon2 {
+    height: 24px;
+    width: 19px;
+    position: relative;
+  }
+  .i1vector-icon2 {
+    width: 24px;
+    height: 17px;
+  }
+  .i1vector-frame {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 3px 0 0;
+  }
+  .i1hey-neha-parent,
+  .i1image-container,
+  .i1vector-frame {
+    display: flex;
+    align-items: flex-start;
+  }
+  .i1hey-neha-parent {
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  .i1image-container {
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 18px;
+  }
+  .i1image-51-icon {
+    height: 71px;
+    width: 66px;
+    position: relative;
+    border-radius: 100px;
+    object-fit: cover;
+  }
+  .i1teacher,
+  .i1teacher-name {
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .i1teacher-name {
+    align-self: stretch;
+    height: 24px;
+    white-space: nowrap;
+  }
+  .i1teacher {
+    min-width: 42px;
+    z-index: 1;
+  }
+  .i1teacher-name-parent,
+  .i1teacher-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .i1teacher-wrapper {
+    flex-direction: row;
+    padding: 0 2px;
+    margin-top: -5px;
+    font-size: 12px;
+    color: #3e3e3e;
+  }
+  .i1teacher-name-parent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    flex-direction: column;
+    height: 100%;
+  }
+  .i1chevron-down-icon1 {
+    position: absolute;
+    top: 0;
+    left: 136px;
+    width: 15px;
+    height: 17px;
+    object-fit: contain;
+    z-index: 1;
+  }
+  .i1name-container1 {
+    align-self: stretch;
+    height: 36px;
+    position: relative;
+  }
+  .i1name-container-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 0 13px;
+  }
+  .i1frame-parent9,
+  .i1image-51-parent,
+  .i1image-container-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+  }
+  .i1image-51-parent {
+    flex: 1;
+    gap: 9px;
+  }
+  .i1frame-parent9,
+  .i1image-container-parent {
+    width: 404px;
+    gap: 100px;
+    max-width: 100%;
+    font-size: 14px;
+  }
+  .i1frame-parent9 {
+    width: 1005px;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    text-align: left;
+    font-size: 34px;
+    color: #000;
+    font-family: "Istok Web";
+  }
+  .i1image-56-icon1 {
+    height: 69px;
+    width: 72px;
+    position: absolute;
+    margin: 0 !important;
+    top: 37px;
+    right: 150px;
+    border-radius: 100px;
+    object-fit: contain;
+  }
+  .i1chat-bubble-child {
+    width: 1042px;
+    height: 837px;
+    position: relative;
+    border-radius: 20px;
+    background-color: snow;
+    display: none;
+    max-width: 100%;
+  }
+  .i1user-information1 {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    display: inline-block;
+    width: 345px;
+    height: 29px;
+    z-index: 2;
+  }
+  .i1rectangle-div {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 10px;
+    background-color: snow;
+    border: 1px solid #7f7c7c;
+    box-sizing: border-box;
+    width: 108px;
+    z-index: 3;
+  }
+  .i1edit2 {
+    position: absolute;
+    top: 10px;
+    left: 37px;
+    display: inline-block;
+    width: 124px;
+    height: 29px;
+    z-index: 4;
+  }
+  .i1rectangle-container {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 330px;
+    width: 161px;
+  }
+  .i1user-name-edit {
+    width: 491px;
+    height: 51px;
+    position: relative;
+    max-width: 100%;
+  }
+  .i1username1 {
+    width: 164px;
+    position: relative;
+    display: inline-block;
+    z-index: 2;
+  }
+  .i1user-credentials-child {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    border-radius: 10px;
+    background-color: snow;
+    border: 1px solid #555050;
+    z-index: 2;
+  }
+  .i1user-credentials {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 9px;
+  }
+  .i1email-address1 {
+    width: 164px;
+    position: relative;
+    display: inline-block;
+    z-index: 2;
+  }
+  .i1user-credentials-item {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    border-radius: 10px;
+    background-color: snow;
+    border: 1px solid #555050;
+    z-index: 2;
+  }
+  .i1user-credentials1 {
+    align-self: stretch;
+    flex: 1;
+    gap: 4px;
+  }
+  .i1user-credentials-parent,
+  .i1user-credentials1,
+  .i1user-name-edit-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .i1user-credentials-parent {
+    align-self: stretch;
+    flex: 1;
+    gap: 21px;
+    font-size: 16px;
+  }
+  .i1user-name-edit-parent {
+    height: 280px;
+    width: 654px;
+    gap: 35px;
+    max-width: 100%;
+  }
+  .i1image-58-icon {
+    height: 128px;
+    width: 124px;
+    position: relative;
+    border-radius: 100px;
+    object-fit: cover;
+    z-index: 2;
+  }
+  .i1image-container1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 23px;
+  }
+  .i1change-image-action-child {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 10px;
+    background-color: snow;
+    border: 1px solid #7f7c7c;
+    box-sizing: border-box;
+    width: 171px;
+    z-index: 2;
+  }
+  .i1change-image1 {
+    position: absolute;
+    top: 15px;
+    left: 36px;
+    display: inline-block;
+    width: 162px;
+    height: 23px;
+    z-index: 3;
+  }
+  .i1change-image-action {
+    align-self: stretch;
+    height: 51px;
+    position: relative;
+  }
+  .i1change-image-container,
+  .i1change-image-container-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .i1change-image-container {
+    align-self: stretch;
+    justify-content: flex-start;
+    gap: 20.1px;
+  }
+  .i1change-image-container-wrapper {
+    width: 198px;
+    justify-content: flex-end;
+    padding: 0 0 18px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  .i1user-info-details {
+    width: 945px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    max-width: 100%;
+    gap: 20px;
+    font-size: 20px;
+  }
+  .i1first-name1 {
+    width: 164px;
+    position: relative;
+    display: inline-block;
+    z-index: 2;
+  }
+  .i1knowledge-base-response-for-en {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    border-radius: 10px;
+    background-color: snow;
+    border: 1px solid #555050;
+    z-index: 2;
+  }
+  .i1first-name-group {
+    width: 654px;
+    height: 86px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 6px;
+    max-width: 100%;
+  }
+  .i1last-name1 {
+    flex: 1;
+    position: relative;
+    z-index: 2;
+  }
+  .i1last-name-container {
+    width: 168px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 2px;
+    box-sizing: border-box;
+  }
+  .i1frame-child1 {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    border-radius: 10px;
+    background-color: snow;
+    border: 1px solid #555050;
+    z-index: 2;
+  }
+  .i1last-name-container-parent {
+    width: 654px;
+    height: 103px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 19px;
+    box-sizing: border-box;
+    gap: 4px;
+    max-width: 100%;
+  }
+  .i1contact-information1 {
+    align-self: stretch;
+    position: relative;
+    z-index: 2;
+  }
+  .i1address1 {
+    width: 155px;
+    position: relative;
+    display: inline-block;
+    z-index: 2;
+  }
+  .i1contact-address,
+  .i1contact-address-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .i1contact-address {
+    align-self: stretch;
+    gap: 28px;
+  }
+  .i1contact-address-wrapper {
+    flex: 1;
+    padding: 8px 0 0;
+    box-sizing: border-box;
+    min-width: 189px;
+  }
+  .i1frame-child2 {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 10px;
+    background-color: snow;
+    border: 1px solid #7f7c7c;
+    box-sizing: border-box;
+    width: 108px;
+    z-index: 2;
+  }
+  .i1edit3 {
+    position: absolute;
+    top: 11px;
+    left: 37px;
+    display: inline-block;
+    width: 124px;
+    height: 29px;
+    z-index: 3;
+  }
+  .i1rectangle-parent1 {
+    height: 51px;
+    width: 161px;
+    position: relative;
+    font-size: 20px;
+  }
+  .i1address-container,
+  .i1address-container-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .i1address-container {
+    flex: 1;
+    gap: 37px;
+  }
+  .i1address-container-wrapper {
+    align-self: stretch;
+    padding: 0 0 0 2px;
+    box-sizing: border-box;
+  }
+  .i1contact-container-child {
+    width: 443px;
+    height: 57px;
+    position: relative;
+    border-radius: 10px;
+    background-color: snow;
+    border: 1px solid #555050;
+    box-sizing: border-box;
+    max-width: 100%;
+    z-index: 2;
+  }
+  .i1contact-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+    max-width: 100%;
+  }
+  .i1phone-no1 {
+    height: 66px;
+    flex: 1;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 2;
+  }
+  .i1phone-container {
+    width: 161px;
+    height: 23px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 3px;
+    box-sizing: border-box;
+  }
+  .i1frame-child3 {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    border-radius: 10px;
+    background-color: snow;
+    border: 1px solid #555050;
+    flex-shrink: 0;
+    z-index: 3;
+  }
+  .i1phone-container-parent {
+    height: 80px;
+    width: 231px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: -12px;
+  }
+  .i1contact-container-parent {
+    width: 710px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 0 0 7px;
+    box-sizing: border-box;
+    max-width: 100%;
+    row-gap: 20px;
+  }
+  .i1gender1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 155px;
+    height: 66px;
+    z-index: 2;
+  }
+  .i1gender-dropdown {
+    position: absolute;
+    top: 23px;
+    left: 0;
+    border-radius: 10px;
+    background-color: snow;
+    border: 1px solid #555050;
+    box-sizing: border-box;
+    width: 222px;
+    height: 57px;
+    z-index: 3;
+  }
+  .i1gender-group {
+    width: 222px;
+    height: 80px;
+    position: relative;
+  }
+  .i1chat-bubble {
+    flex: 1;
+    border-radius: 20px;
+    background-color: snow;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 21.1px 41px 25.9px;
+    box-sizing: border-box;
+    gap: 21px;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .i1user-information-container {
+    flex: 1;
+    flex-direction: row;
+    position: relative;
+  }
+  .i1frame-parent8,
+  .i1teacher-profile-inner,
+  .i1user-information-container,
+  .i1user-information-container-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .i1user-information-container-wrapper {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 0 0 3px;
+    box-sizing: border-box;
+  }
+  .i1frame-parent8,
+  .i1teacher-profile-inner {
+    flex-direction: column;
+    flex-shrink: 0;
+  }
+  .i1frame-parent8 {
+    align-self: stretch;
+    gap: 24px;
+    text-align: left;
+    font-size: 16px;
+    color: #000;
+    font-family: "Istok Web";
+  }
+  .i1teacher-profile-inner {
+    width: 1074px;
+    padding: 61px 29px 0 0;
+    box-sizing: border-box;
+  }
+  .i1hello-how-are-you-today {
+    align-self: stretch;
+    height: 831px;
+    position: relative;
+    border-radius: 10px;
+    background-color: #f9f5f5;
+    flex-shrink: 0;
+  }
+  .i1hello-how-are-you-today-wrapper,
+  .i1teacher-profile {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .i1hello-how-are-you-today-wrapper {
+    height: 1005px;
+    width: 1053px;
+    flex-direction: column;
+    padding: 231px 0 0;
+    max-width: 100%;
+    flex-shrink: 0;
+  }
+  .i1teacher-profile {
+    width: 100%;
+    position: relative;
+    border-radius: 20px;
+    background: linear-gradient(241.96deg, #efefef, rgba(74, 152, 163, 0));
+    overflow: hidden;
+    flex-direction: row;
+    padding: 0 1px 19px;
+    gap: 32px;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    font-size: 16px;
+    color: #2b59ce;
+    font-family: "Istok Web";
+  }
+  @media screen and (max-width: 1350px) {
+    .i1teacher-profile {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 1125px) {
+    .i1user-info-details {
+      flex-wrap: wrap;
+    }
+    .i1chat-bubble {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      box-sizing: border-box;
+    }
+    .i1teacher-profile-inner {
+      padding-top: 40px;
+      box-sizing: border-box;
+    }
+    .i1hello-how-are-you-today-wrapper {
+      padding-top: 150px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .i1user-name-edit-parent {
+      gap: 17px;
+    }
+    .i1address-container {
+      flex: 1;
+      flex-wrap: wrap;
+      gap: 18px;
+    }
+    .i1phone-container-parent {
+      margin-left: 0;
+    }
+    .i1contact-container-parent {
+      flex-wrap: wrap;
+    }
+    .i1teacher-profile-inner {
+      padding-top: 26px;
+      box-sizing: border-box;
+    }
+    .i1teacher-profile {
+      gap: 16px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .i1frame-parent5 {
+      gap: 25px;
+    }
+    .i1checked-user-male-group {
+      gap: 47px;
+    }
+    .i1rectangle-group {
+      gap: 161px;
+      padding-left: 20px;
+      box-sizing: border-box;
+    }
+    .i1image-container-parent {
+      gap: 50px;
+    }
+    .i1edit2,
+    .i1edit3,
+    .i1user-information1 {
+      font-size: 16px;
+    }
+    .i1hello-how-are-you-today-wrapper {
+      padding-top: 97px;
+      box-sizing: border-box;
+    }
+  }

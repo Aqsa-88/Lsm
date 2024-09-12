@@ -1,0 +1,22 @@
+.dashboard{
+  background-color: rgb(244, 250, 250);
+}
+.check{
+  background-color:rgb(16, 189, 189);
+  padding-left: 0%;
+  margin-left: 24%;
+  width: 1010px;
+}
+.Header{
+  background-color: brown;
+}
+.Sidebar{
+  background-color: darkcyan;
+  
+}
+.TopCourse{
+  background-color: blue;
+}
+.Eventlist{
+  background-color: blueviolet;
+}

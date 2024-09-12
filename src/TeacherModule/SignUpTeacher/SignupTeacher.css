@@ -1,0 +1,48 @@
+.main{
+   
+    width: 600px;
+    height: 700px;
+}
+.b1group-icon132 {
+    width: 359px;
+    height: 350px;
+    place-items: center;
+    padding-top: 40%;
+    padding-left: 20%;
+
+  }
+
+  .b1group32 img {
+    display: grid;
+    place-items: center;      /* Centers the image both horizontally and vertically */
+    height: 370px;
+    width: 490px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 3;
+  }
+  .b1frame-child2 {
+    position: absolute;
+    top: 0%;
+    left: 0;
+    width: 647px;
+    /* width: 500px;  */
+    height: 750Px;
+  }
+  .b1illustration-content2 {
+    height: 599px;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+  }
+  .b1vector-parent2 {
+    height:600px;
+    flex: 3;
+    position: relative;
+    width: 100%;
+    left: 700px;
+    bottom: 104.88%;
+  }
