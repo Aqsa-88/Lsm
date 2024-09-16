@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import InputField from './InputField';
 import RatingSection from './RatingSection';
+import Swal from 'sweetalert2';
 
 const FormWrapper = styled.form`
   border-radius: 12px;
@@ -9,10 +10,10 @@ const FormWrapper = styled.form`
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   display: flex;
   margin-top: 21px;
-  width: 100%;
+  width: 400px;
   flex-direction: column;
-  align-items: end;
-  justify-content: end;
+  align-items: center;
+  justify-content: center;
   padding: 30px 25px;
   @media (max-width: 991px) {
     padding: 0 20px;
@@ -29,7 +30,7 @@ const Section = styled.div`
 
 const CommentsSection = styled.div`
   display: flex;
-  margin-top: 30px;
+  margin-top: 9px;
   width: 100%;
   flex-direction: column;
   color: #aaa;
@@ -44,19 +45,19 @@ const CommentsInput = styled.textarea`
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.18);
   width: 100%;
   padding: 8px 10px;
-  min-height: 100px;
+  height: 50px;
   resize: vertical;
 `;
 
 const ButtonGroup = styled.div`
   display: flex;
-  margin-top: 60px;
+  margin-top: 20px;
   align-items: center;
-  gap: 30px;
+  gap: 10px;
   font-family: Montserrat, sans-serif;
   font-weight: 700;
   @media (max-width: 991px) {
-    margin-top: 40px;
+    margin-top: 10px;
     flex-wrap: wrap;
   }
 `;
@@ -81,21 +82,49 @@ const SubmitButton = styled.button`
 `;
 
 function FeedbackFormComponent() {
+  const handleCancel = () => {
+    Swal.fire({
+      title: 'Cancelled!',
+      text: 'You clicked the cancel button',
+      icon: 'warning',
+      showConfirmButton: true,
+      confirmButtonText: 'OK',
+    });
+  };
+
+  // Function to handle Submit button click
+  const handleSubmit = (e) => {
+    e.preventDefault(); // Prevent the form from submitting
+    Swal.fire({
+      title: 'Submitted!',
+      text: 'Your form has been submitted',
+      icon: 'success',
+      showConfirmButton: true,
+      confirmButtonText: 'OK',
+    });
+  };
   return (
     <FormWrapper>
       <Section>
-        <InputField label="Name" type="text" placeholder="Enter username" icon="https://cdn.builder.io/api/v1/image/assets/TEMP/7adf0cdb2cf21deb97cee9a1888ab38139b0da9e33c434d81b6996a1caf0869d?placeholderIfAbsent=true&apiKey=be915012f8d44929bde1a27e7557fcc2" />
-        <InputField label="Email Address" type="email" placeholder="Enter your email" icon="https://cdn.builder.io/api/v1/image/assets/TEMP/7c686cdd62bf2c5156653b81e0cf0a068666e7b2f5dcafc9778af9fc9084e812?placeholderIfAbsent=true&apiKey=be915012f8d44929bde1a27e7557fcc2" />
-        <RatingSection />
+        <div className='Name'>
+      <label htmlFor="Name">Name</label></div>
+       <InputField label="" type="text" placeholder="Enter username" icon="https://cdn.builder.io/api/v1/image/assets/TEMP/7adf0cdb2cf21deb97cee9a1888ab38139b0da9e33c434d81b6996a1caf0869d?placeholderIfAbsent=true&apiKey=be915012f8d44929bde1a27e7557fcc2" />
+       <div className='Email'><label htmlFor="Email">Email</label></div>
+        <InputField label="" type="email" placeholder="Enter your email" icon="https://cdn.builder.io/api/v1/image/assets/TEMP/7c686cdd62bf2c5156653b81e0cf0a068666e7b2f5dcafc9778af9fc9084e812?placeholderIfAbsent=true&apiKey=be915012f8d44929bde1a27e7557fcc2" />
+       <RatingSection />
         <CommentsSection>
-          <label htmlFor="comments">Comments</label>
+        <div className='name'>   <label htmlFor="comments">Comments</label></div>
           <CommentsInput id="comments" placeholder="Add your comments..." />
         </CommentsSection>
       </Section>
+      <div className='button'>
       <ButtonGroup>
-        <CancelButton type="button">Cancel</CancelButton>
-        <SubmitButton type="submit">SUBMIT</SubmitButton>
+      <form onSubmit={handleSubmit}>
+        <CancelButton type="button"onClick={handleCancel}>Cancel</CancelButton>
+        <SubmitButton type="submit" onSubmit={handleSubmit}>SUBMIT</SubmitButton>
+        </form>
       </ButtonGroup>
+      </div>
     </FormWrapper>
   );
 }

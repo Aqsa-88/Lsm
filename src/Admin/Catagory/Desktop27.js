@@ -53,10 +53,9 @@ const Desktop27 = () => {
                   <b className="a1courses5">Courses</b>
                 </div>
               </div>
+              
             </div>
-          </div>
-        </div>
-        <div className="a1bottom-navigation">
+            <div className="a1bottom-navigation">
           <div className="a1left-bottom-navigation">
             <div className="a1left-bottom-items">
               <div className="a1left-bottom-actions">
@@ -90,6 +89,9 @@ const Desktop27 = () => {
             </div>
           </div>
         </div>
+          </div>
+        </div>
+       
       </div>
       <main className="a1content">
         <section className="a1main-content2">
@@ -166,11 +168,13 @@ const Desktop27 = () => {
               </div>
             </div>
           </header>
+          <div style={{ height: '450px', overflowY: 'scroll', scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
           <div className="a1categories">
             <div className="a1categories-child" />
             <div className="a1published-catagory-wrapper">
               <h3 className="a1published-catagory">Published Catagory</h3>
             </div>
+            {/**/}
             <div className="a1published-categories">
               <div className="a1first-published-category">
                 <div className="a1first-published-category-child" />
@@ -499,6 +503,7 @@ const Desktop27 = () => {
               </div>
             </div>
             <b className="a1see-all3">See all</b>
+          </div>
           </div>
         </section>
       </main>

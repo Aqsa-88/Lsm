@@ -135,8 +135,7 @@ const Desktop33 = () => {
               </div>
             </div>
           </div>
-        </div>
-        <div className="action-buttons-wrapperq1">
+          <div className="action-buttons-wrapperq1">
           <div className="action-buttonsq1">
             <div className="help-logoutq1">
               <div className="help-buttonq1">
@@ -170,7 +169,10 @@ const Desktop33 = () => {
             </div>
           </div>
         </div>
+        </div>
+        
       </div>
+          
       <main className="category-managementq1">
         <section className="category-contentq1">
           <header className="category-headerq1">
@@ -227,6 +229,8 @@ const Desktop33 = () => {
               </div>
             </div>
           </header>
+          <div style={{ height: '460px',width:'995px', overflowY: 'scroll', scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
+     
           <div className="rectangle-groupq1">
             <div className="frame-innerq1" />
             <div className="upload-contentq1">
@@ -425,8 +429,11 @@ const Desktop33 = () => {
               </div>
             </div>
           </div>
+          </div>
         </section>
+        
       </main>
+      
     </div>
   );
 };

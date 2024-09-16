@@ -112,12 +112,12 @@ const Desktop19 = () => {
               />
                <b className="sign-up3">Sign Up</b>
                {userType === 'teacher' ?(
-                <Link to="/7">
+                <Link to="/SignupTeacher">
               <b className="sign-up3">Sign Up</b>
               </Link>
                ):
                userType === 'student' ?(
-                   <Link to="/s5">
+                   <Link to="/DashboardComponent">
                    <b className="sign-up3">Sign Up</b>
                    </Link>) : null
                }

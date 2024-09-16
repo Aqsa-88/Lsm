@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import {  Link } from 'react-router-dom';
 
 const HeaderWrapper = styled.header`
   display: flex;
@@ -7,7 +8,8 @@ const HeaderWrapper = styled.header`
   align-items: center;
   gap: 15px;
   font-family: Istok Web, sans-serif;
-  padding: 15px 0;
+  padding-top: 5px ;
+  padding-right :5%;
 `;
 
 const UserAvatar = styled.img`
@@ -43,9 +45,9 @@ function Header() {
       <UserInfo>
         <UserName>
           User Name
-          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/ba2513a1ae94aace3dd514e557f20b605c128bccdb8e38b5aab95c75927744f7?placeholderIfAbsent=true&apiKey=be915012f8d44929bde1a27e7557fcc2" alt="User Status" style={{ width: '15px' }} />
+         <Link to= "/MyprofileComponent"> <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/ba2513a1ae94aace3dd514e557f20b605c128bccdb8e38b5aab95c75927744f7?placeholderIfAbsent=true&apiKey=be915012f8d44929bde1a27e7557fcc2" alt="User Status" style={{ width: '15px' }} /></Link>
         </UserName>
-        <UserRole>User</UserRole>
+        <div className='user'><UserRole>User</UserRole></div>
       </UserInfo>
     </HeaderWrapper>
   );

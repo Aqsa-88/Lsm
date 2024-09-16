@@ -72,7 +72,7 @@
     height: 82px;
     width: 341px;
     position: relative;
-    background: linear-gradient(203.a114deg, #adbbdf, rgba(182, 187, 202, 0));
+    background: linear-gradient(203.14deg, #adbbdf, rgba(182, 187, 202, 0));
     display: none;
     max-width: 100%;
   }
@@ -174,8 +174,8 @@
     padding: 0 10px 0 3px;
   }
   .a1aoi-editor-icon {
-    height: 38.a14px;
-    width: 37.a14px;
+    height: 38.4px;
+    width: 37.4px;
     position: relative;
     z-index: 1;
   }
@@ -202,7 +202,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    gap: 22.a13px;
+    gap: 22.13px;
   }
   .a1help4,
   .a1log-out4,
@@ -210,6 +210,9 @@
     align-self: stretch;
     position: relative;
     z-index: 1;
+  }
+  .a1log-out4{
+    padding-top: 20px;
   }
   .a1settings-action,
   .a1settings-navigation {
@@ -260,11 +263,12 @@
     align-self: stretch;
     flex-direction: row;
     justify-content: flex-end;
-    padding: 0 12px;
+    padding: 11px 16px;
     color: #373739;
   }
   .a1navigation {
     width: 341px;
+    height: 580px ;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
     background-color: snow;
@@ -735,7 +739,7 @@
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
     background-color: snow;
-    max-width: 100%;
+    width: 307px;
   }
   .a1first-published-category {
     display: flex;
@@ -1089,7 +1093,7 @@
     padding: 4px 0 0;
   }
   .a1published-categories {
-    width: 1022px;
+    width: 964px;
     display: grid;
     flex-direction: row;
     padding: 0 0 27px;
@@ -1622,7 +1626,7 @@
     grid-template-columns: repeat(3, minmax(247px, 1fr));
   }
   .a1category-items-wrapper {
-    width: 1028px;
+    width: 964px;
     display: flex;
     align-items: flex-start;
     padding: 0 2px;
@@ -1642,7 +1646,7 @@
   .a1categories {
     align-self: stretch;
     border-radius: 10px;
-    background-color: #f9f5f5;
+    background-color: #f3e9e9;
     flex-direction: column;
     padding: 26px 1px 76px;
     box-sizing: border-box;
@@ -1681,6 +1685,7 @@
   }
   .a1desktop-14 {
     width: 100%;
+    height: 585px;
     position: relative;
     border-radius: 20px;
     background: linear-gradient(241.96deg, #efefef, rgba(74, 152, 163, 0));

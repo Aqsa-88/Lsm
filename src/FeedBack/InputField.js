@@ -23,7 +23,7 @@ const InputContainer = styled.div`
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.18);
   display: flex;
   align-items: center;
-  padding: 10px;
+  padding: 5px;
 `;
 
 const Icon = styled.img`

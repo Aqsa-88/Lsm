@@ -3,21 +3,18 @@ import styled from 'styled-components';
 import Sidebar from './Sidebar';
 import Header from './Header';
 import FeedbackContent from './FeedbackContent';
-
+import './Feedback.css'
+/** padding-bottom: 18px; */
 const FeedbackFormWrapper = styled.div`
   border-radius: 20px;
-  padding-bottom: 18px;
   overflow: hidden;
+  
 `;
 
 const ContentWrapper = styled.div`
   display: flex;
-  gap: 20px;
-  @media (max-width: 991px) {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 0;
-  }
+  gap: 9px;
+ 
 `;
 
 const MainContent = styled.main`
@@ -25,8 +22,9 @@ const MainContent = styled.main`
   display: flex;
   flex-direction: column;
   line-height: normal;
-  width: 76%;
-  margin-left: 20px;
+  width: 55%;
+  height : 600px;
+  margin-left: 200px;
   @media (max-width: 991px) {
     width: 100%;
     margin-left: 0;
@@ -35,6 +33,7 @@ const MainContent = styled.main`
 
 function FeedbackForm() {
   return (
+    <div className='feedback'>
     <FeedbackFormWrapper>
       <ContentWrapper>
         <Sidebar />
@@ -44,6 +43,7 @@ function FeedbackForm() {
         </MainContent>
       </ContentWrapper>
     </FeedbackFormWrapper>
+    </div>
   );
 }
 
