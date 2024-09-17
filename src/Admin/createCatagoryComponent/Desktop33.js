@@ -2,7 +2,6 @@
 import { Link } from 'react-router-dom';
 import React, { useState, useEffect } from "react";
 import { uploadCategory } from '../Services/Api';
-
 import "./Desktop33.css";
 
 const Desktop33 = () => {
@@ -28,32 +27,42 @@ const Desktop33 = () => {
 
     loadCategories();
   }, []);
-
+  
   const handleAddCategory = async () => {
     debugger
+    const userId = localStorage.getItem('Id'); // Get userId from local storage
+    
     if (newCategory.title && newCategory.description) {
       const formData = new FormData();
       formData.append('Title', newCategory.title);
       formData.append('Description', newCategory.description);
       formData.append('Vedio_URl', videoUrl);
+      formData.append('User_ID', userId); // Add userId to form data
+  
       if (image) {
         formData.append('Picturess', image);
       }
   
       try {
-        debugger
         const uploadedCategory = await uploadCategory(formData);
-        setCategories([...categories, uploadedCategory]);
+        setCategories([categories, uploadedCategory]);
         setNewCategory({ title: "", description: "" });
-        setImage(null);
+        setImage("");
         setVideoUrl("");
       } catch (error) {
         console.error('Error uploading category:', error.response ? error.response.data : error.message);
         alert('Failed to upload category.');
       }
-      
     } else {
-      alert("Please fill out both fields.");
+      alert("Please fill out all fields.");
+    }
+  };
+  
+  
+  const handleImageUpload = (event) => {
+    const file = event.target.files[0];
+    if (file) {
+      setImage(file);  // directly storing the File object
     }
   };
   
@@ -63,15 +72,15 @@ const Desktop33 = () => {
     setNewCategory({ ...newCategory, [name]: value });
   };
 
-  const handleImageUpload = (event) => {
-    const file = event.target.files[0];
-    if (file) {
-      const reader = new FileReader();
-      reader.onload = (e) => setImage(e.target.result);
-      reader.readAsDataURL(file);
-    }
+  // const handleImageUpload = (event) => {
+  //   const file = event.target.files[0];
+  //   if (file) {
+  //     const reader = new FileReader();
+  //     reader.onload = (e) => setImage(e.target.result);
+  //     reader.readAsDataURL(file);
+  //   }
     
-  };
+  // };
 
   const handleVideoUpload = () => {
     const videoUrl = document.getElementById("videoUrlInput").value;

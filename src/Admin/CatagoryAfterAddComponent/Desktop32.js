@@ -16,7 +16,7 @@ const Desktop32 = () => {
               className="group-icon1w1"
               loading="lazy"
               alt=""
-              src="../Images/Group.png"
+              src="/Images/Group.png"
             />
           </div>
           <div className="frame-parent12w1">
@@ -26,7 +26,7 @@ const Desktop32 = () => {
                   className="vector-iconw1"
                   loading="lazy"
                   alt=""
-                  src="../Images/dash.png"
+                  src="/Images/dash.png"
                 />
                 <div className="frame-wrapper10w1">
                   <div className="dashboard-groupw1">
@@ -38,7 +38,7 @@ const Desktop32 = () => {
             <div className="rectangle-parent10w1">
             <div className="frame-child9w1" />
             <div className="vectorw1">
-            <img className="vector-icon1w1" alt="" src="../Images/Vector11.png" />
+            <img className="vector-icon1w1" alt="" src="/Images/Vector11.png" />
             <div className="frame-itemw1" />
             <div className="catagory-wrapperw1">
               <b className="catagoryw1">Catagory</b>
@@ -51,16 +51,14 @@ const Desktop32 = () => {
                 className="query-inner-joinw1"
                 loading="lazyq1"
                 alt=""
-                src="../Images/QueryInnerJoin.png"
+                src="/Images/QueryInnerJoin.png"
               />
               <div className="course-wrapperw1">
                 <b className="coursew1">Course</b>
               </div>
             </div>
           </div>
-          </div>
-        </div>
-        <div className="frame-wrapper11w1">
+          <div className="frame-wrapper11w1">
           <div className="frame-parent13w1">
             <div className="frame-parent14w1">
               <div className="help-containerw1">
@@ -68,7 +66,7 @@ const Desktop32 = () => {
                   className="help-icon1w1"
                   loading="lazy"
                   alt=""
-                  src="../Images/help.png"
+                  src="/Images/help.png"
                 />
               </div>
               <div className="vector-wrapperw1">
@@ -76,14 +74,14 @@ const Desktop32 = () => {
                   className="vector-icon1w1"
                   loading="lazy"
                   alt=""
-                  src="../Images/12vv.png"
+                  src="/Images/12vv.png"
                 />
               </div>
               <img
                 className="logout-icon1w1"
                 loading="lazy"
                 alt=""
-                src="../Images/Logout.png"
+                src="/Images/Logout.png"
               />
             </div>
             <div className="frame-wrapper12w1">
@@ -99,6 +97,9 @@ const Desktop32 = () => {
             </div>
           </div>
         </div>
+          </div>
+        </div>
+       
       </div>
       <main className="desktop-16-inner1w1">
         <section className="frame-parent15w1">
@@ -109,7 +110,7 @@ const Desktop32 = () => {
               </div>
               <div className="rectangle-parent11w1">
                 <div className="frame-child10w1" />
-                <img className="search-icon1w1" alt="" src="../Images/Search.png" />
+                <img className="search-icon1w1" alt="" src="/Images/Search.png" />
                 <div className="search-containerw1">
                   <input href ="/" className="search1w1" type="email" placeholder="Search" required />
                 </div>
@@ -122,14 +123,14 @@ const Desktop32 = () => {
                     className="vector-icon2w1"
                     loading="lazy"
                     alt=""
-                    src="../Images/Vector.png"
+                    src="/Images/Vector.png"
                   />
                   <div className="vector-containerw1">
                     <img
                       className="vector-icon3w1"
                       loading="lazy"
                       alt=""
-                      src="../Images/Vector1.png"
+                      src="/Images/Vector1.png"
                     />
                   </div>
                 </div>
@@ -138,7 +139,7 @@ const Desktop32 = () => {
                     className="image-50-icon1w1"
                     loading="lazy"
                     alt=""
-                    src="../Images/image41.png"
+                    src="/Images/image41.png"
                   />
                   <div className="frame-wrapper15w1">
                     <div className="frame-parent19w1">
@@ -152,7 +153,7 @@ const Desktop32 = () => {
                       <img
                         className="chevron-down-icon1w1"
                         alt=""
-                        src="../Images/ChevronDown.png"
+                        src="/Images/ChevronDown.png"
                       />
                       </Link>
                     </div>
@@ -163,6 +164,7 @@ const Desktop32 = () => {
           </header>
           <div className="frame-wrapper16w1">
             <div className="frame-parent20w1">
+            <div style={{ height: '460px',width:'669px', overflowY: 'scroll', scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
               <div className="frame-parent21w1">
                 <div className="rectangle-parent12w1">
                   <div className="frame-child11w1" />
@@ -173,7 +175,7 @@ const Desktop32 = () => {
                           className="image-15-icon1w1"
                           loading="lazy"
                           alt=""
-                          src="../Images/AfterCreatepic.png"
+                          src="/Images/AfterCreatepic.png"
                         />
                         <div className="frame-wrapper18w1">
                           <div className="frame-parent23w1">
@@ -194,7 +196,7 @@ const Desktop32 = () => {
                                 className="image-14-icon1w1"
                                 loading="lazy"
                                 alt=""
-                                src="../Images/images.png"
+                                src="/Images/images.png"
                               />
                               <div className="frame-parent24w1">
                                 <div className="devi-prasad-containerw1">
@@ -282,6 +284,9 @@ const Desktop32 = () => {
                   </div>
                 </div>
               </div>
+              </div>
+              <div style={{ height: '460px', overflowY: 'scroll', scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
+     
               <div className="rectangle-parent17w1">
                 <div className="frame-child16w1" />
                 <div className="video-header-groupw1">
@@ -301,21 +306,21 @@ const Desktop32 = () => {
                               className="play-button-icon1w1"
                               loading="lazy"
                               alt=""
-                              src="../Images/Play.png"
+                              src="/Images/Play.png"
                             />
                              <div className="languagew1">
                             <img
                               className="eng-5-icon1w1"
                               loading="lazy"
                               alt=""
-                              src="../Images/img.png"
+                              src="/Images/img.png"
                             />
                             <div className="subtitlew1">
                               <img
                                 className="subtitle-button-icon1w1"
                                 loading="lazy"
                                 alt=""
-                                src="../Images/Eye.png"
+                                src="/Images/Eye.png"
                               />
                             </div>
                           </div>
@@ -335,6 +340,7 @@ const Desktop32 = () => {
                     </div>
                   </div>
                 </div>
+              </div>
               </div>
             </div>
           </div>

@@ -20,7 +20,7 @@ const SignUpForm = () => {
   ];
 
   return (
-    <div className="main">
+    <div className="ain">
     <StyledForm>
       <FormLogo src="https://cdn.builder.io/api/v1/image/assets/TEMP/03c92f758d82633438adb9faf06c086c0fe2378c19390c045a3b4620ffed0530?placeholderIfAbsent=true&apiKey=be915012f8d44929bde1a27e7557fcc2" alt="Form Logo" />
       <FormContainer>

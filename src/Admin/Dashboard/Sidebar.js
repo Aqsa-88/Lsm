@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { handleLogout } from './api'; 
 
 function Sidebar() {
@@ -17,10 +17,12 @@ function Sidebar() {
         <NavIcon src="https://cdn.builder.io/api/v1/image/assets/TEMP/cad9bf7e759addd4fa574d8cd4480338aa226c09af158a6b353387deab88202b?placeholderIfAbsent=true&apiKey=be915012f8d44929bde1a27e7557fcc2" alt="Dashboard icon" />
         <NavText>Dashboard</NavText>
       </NavItem>
+      <Link to="/Catagory">
       <NavItem>
         <NavIcon src="https://cdn.builder.io/api/v1/image/assets/TEMP/0c523577d26237dbb620331438f0576b41f6b9c406828c4f14310d39338d1c7c?placeholderIfAbsent=true&apiKey=be915012f8d44929bde1a27e7557fcc2" alt="Category icon" />
         <NavText>Category</NavText>
       </NavItem>
+      </Link>
       <NavItem>
         <NavIcon src="https://cdn.builder.io/api/v1/image/assets/TEMP/7ead6676bed99ef0116f4b4e1ba6aa12c66433da3bf0888bcd0d0e75d612f327?placeholderIfAbsent=true&apiKey=be915012f8d44929bde1a27e7557fcc2" alt="Courses icon" />
         <NavText>Courses</NavText>
